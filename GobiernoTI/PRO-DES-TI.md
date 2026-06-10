@@ -180,6 +180,8 @@ Una vez obtenida la conformidad funcional:
 - Se ejecutarán los cambios autorizados.
 - Se registrará la fecha de implementación.
 
+La autorización del pase a producción podrá registrarse en el mismo ticket, historia de usuario, correo, comentario o documento equivalente. Cuando un despliegue agrupe varios cambios o historias, podrá utilizarse un registro o ticket de despliegue que indique los cambios incluidos, responsable, fecha o ventana de implementación y evidencias de validación.
+
 Cuando corresponda, se realizará respaldo previo.
 
 ### 7.7 Cierre
@@ -223,6 +225,7 @@ Todo desarrollo deberá conservar, como mínimo:
 | Evidencia de validación o pruebas | Según complejidad, riesgo e impacto |
 | Conformidad funcional | Sí |
 | Evidencia de despliegue | Sí |
+| Autorización de pase a producción | Sí, cuando aplique despliegue |
 
 ## 12. INDICADORES
 

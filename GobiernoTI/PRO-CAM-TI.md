@@ -174,6 +174,10 @@ La aprobación podrá realizarse mediante:
 - Acta.
 - Documento interno.
 
+La aprobación del cambio y la autorización del pase a producción son controles distintos. La aprobación del cambio confirma que el cambio puede ejecutarse; la autorización del pase a producción confirma que uno o más cambios validados pueden implementarse en producción.
+
+Ambas evidencias podrán registrarse en el mismo ticket, historia de usuario, correo electrónico, comentario o documento equivalente. No se requiere crear un ticket separado únicamente para autorizar el pase a producción.
+
 ### 7.4 Implementación
 
 Una vez aprobado el cambio:
@@ -202,6 +206,12 @@ Las evidencias podrán consistir en:
 ### 7.6 Pase a Producción
 
 La implementación en producción deberá ser autorizada por la Coordinación TIC.
+
+La autorización del pase a producción podrá corresponder a un cambio individual o a un conjunto de cambios validados. Cuando el pase agrupe varios cambios, deberá indicarse la relación de tickets, historias o requerimientos incluidos.
+
+La autorización podrá registrarse en el mismo ticket del cambio, historia de usuario, correo electrónico, comentario, registro de despliegue o documento equivalente.
+
+El uso de un ticket o registro específico de despliegue será opcional y se recomienda cuando el pase agrupe múltiples cambios, requiera una ventana coordinada, comunicación a usuarios, respaldo previo o plan de reversión.
 
 Cuando corresponda deberá realizarse:
 
@@ -266,6 +276,7 @@ Todo cambio deberá conservar, según corresponda:
 | Aprobación | Sí |
 | Evidencia de validación o pruebas | Según tipo, riesgo e impacto |
 | Evidencia de despliegue | Sí |
+| Autorización de pase a producción | Sí, cuando aplique despliegue |
 | Conformidad funcional o técnica | Sí |
 | Plan de reversión | Según riesgo / obligatorio para cambios mayores cuando corresponda |
 | Comunicación a usuarios afectados | Según impacto |

@@ -34,6 +34,7 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Scripts y validacion de base de datos, si aplica | Scripts adjuntos, enlace a repositorio o registro tecnico | EST-BD-TI |
 | Plan de reversion o mecanismo equivalente | Campo del Anexo B, documento o comentario tecnico | PRO-CAM-TI / EST-BD-TI |
 | Validacion tecnica y funcional | Capturas, reportes, correo, acta o comentario de conformidad | PRO-DES-TI |
+| Autorizacion de pase a produccion | Comentario, correo, aprobacion en ticket principal o registro de despliegue | PRO-CAM-TI / PRO-DES-TI |
 | Fecha real de implementacion | Registro de despliegue, comentario en ticket o bitacora tecnica | PRO-CAM-TI / PRO-DES-TI |
 | Evidencia de despliegue y cierre | Registro de pase, fecha, responsable y estado cerrado | PRO-CAM-TI / PRO-DES-TI |
 
@@ -59,6 +60,7 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Base de datos | Scripts DDL o DML, si corresponden | Responsable BD / Desarrollador | Repositorio, ticket o carpeta tecnica |
 | Preparacion | Plan de reversion o mecanismo de rollback | Responsable tecnico / Responsable BD | Ticket o documento interno |
 | Validacion | Evidencia de validacion tecnica y funcional | Desarrollador / Usuario responsable | Capturas, registros, correo o acta |
+| Pase a produccion | Autorizacion del pase a produccion | Coordinacion TIC | Ticket principal, historia, correo o registro de despliegue |
 | Despliegue | Evidencia de implementacion en produccion | Coordinacion TIC / Responsable tecnico | Ticket o registro de despliegue |
 | Cierre | Conformidad funcional y cierre | Usuario responsable / Coordinacion TIC | Ticket, correo o acta |
 
@@ -78,6 +80,8 @@ Aprobacion formal proporcional
 Desarrollo y ajustes tecnicos
 |
 Validacion tecnica y funcional
+|
+Autorizacion del pase a produccion
 |
 Pase a produccion
 |
@@ -111,6 +115,8 @@ La evidencia debe ser proporcional al impacto. Puede incluir:
 
 La fecha real de implementacion, validacion y conformidad se registran como evidencias posteriores en el ticket, correo, acta, registro de despliegue o documento equivalente.
 
+La autorizacion del pase a produccion puede registrarse en el ticket principal, historia de usuario, correo o registro de despliegue. Si el pase agrupa varias historias o tickets, se debe listar los elementos incluidos, por ejemplo: "Se autoriza el despliegue de TIC-201, TIC-202 y TIC-203".
+
 ## Sustento Documental
 
 | Documento | Sustento |
@@ -142,5 +148,6 @@ El caso se considera cerrado cuando:
 - Scripts y validacion de base de datos, si aplica.
 - Plan de reversion o mecanismo equivalente, si corresponde.
 - Evidencia de validacion tecnica o funcional.
+- Autorizacion de pase a produccion.
 - Evidencia de despliegue.
 - Conformidad y cierre.

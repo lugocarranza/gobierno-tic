@@ -30,6 +30,7 @@ Al cierre del ticket Kanban, historia de usuario en sprint de Jira o herramienta
 | Anexo B - Formato de Cambio | Campos del ticket, comentario estructurado o adjunto | PRO-CAM-TI |
 | Registro de implementacion | Commit, comentario tecnico, bitacora o enlace a repositorio | PRO-DES-TI / EST-DES-TI |
 | Validacion simple | Captura, comentario de conformidad o revision funcional | PRO-CAM-TI / PRO-DES-TI |
+| Autorizacion de pase a produccion | Comentario en el mismo ticket o historia | PRO-CAM-TI / PRO-DES-TI |
 | Fecha real de implementacion | Comentario en ticket, registro de despliegue o cierre tecnico | PRO-CAM-TI |
 | Cierre | Estado cerrado con resumen del resultado | DIR-GST-TI |
 
@@ -50,6 +51,7 @@ Al cierre del ticket Kanban, historia de usuario en sprint de Jira o herramienta
 | Analisis | Confirmacion de que es cambio menor | Responsable tecnico | Anexo B o comentario en ticket |
 | Implementacion | Registro del cambio realizado en repositorio o bitacora | Desarrollador | Repositorio o ticket |
 | Validacion | Captura del filtro implementado o resultado de revision | Desarrollador / Usuario solicitante | Ticket |
+| Pase a produccion | Autorizacion de pase en el mismo ticket o comentario | Coordinacion TIC | Ticket o historia de usuario |
 | Cierre | Conformidad simple o cierre del ticket | Usuario solicitante / Coordinacion TIC | Ticket o correo |
 
 ## Flujo Sugerido
@@ -66,6 +68,8 @@ Registro minimo del Anexo B
 Implementacion
 |
 Validacion simple
+|
+Autorizacion de pase en el mismo ticket
 |
 Cierre
 ```
@@ -99,6 +103,8 @@ Para este tipo de cambio basta una evidencia simple, por ejemplo:
 
 No se requieren pruebas unitarias obligatorias ni aprobacion formal previa.
 
+La autorizacion del pase a produccion puede registrarse en el mismo ticket o historia, por ejemplo: "Cambio menor validado. Se autoriza pase a produccion".
+
 ## Sustento Documental
 
 | Documento | Sustento |
@@ -124,4 +130,5 @@ El caso se considera cerrado cuando:
 - Descripcion del filtro solicitado.
 - Registro del cambio realizado.
 - Captura, conformidad o validacion simple.
+- Autorizacion de pase a produccion, cuando aplique.
 - Cierre del ticket.
