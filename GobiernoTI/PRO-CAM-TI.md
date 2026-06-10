@@ -35,30 +35,37 @@ Aplica a:
 
 Modificación planificada sobre un sistema, servicio, infraestructura o componente tecnológico.
 
-### Cambio Estándar
+### Cambio Menor
 
-Cambio recurrente, de bajo riesgo y previamente autorizado.
+Cambio de bajo riesgo, impacto limitado y complejidad reducida. No requiere aprobación formal previa, pero deberá quedar registrado y contar con validación o conformidad cuando corresponda.
 
 **Ejemplos:**
 
-- Actualización de catálogos.
+- Ajustes de textos.
+- Nuevas fotografías o imágenes.
+- Nuevos reportes simples.
+- Nuevos campos sin impacto crítico.
+- Ajustes menores de interfaz.
 - Configuraciones menores.
-- Reinicio programado de servicios.
 
-### Cambio Normal
+### Cambio Mayor
 
-Cambio que requiere evaluación y aprobación previa.
+Cambio con impacto funcional, operativo, contable, tecnológico, de seguridad o de datos relevante.
 
 **Ejemplos:**
 
-- Nuevas funcionalidades.
-- Modificaciones de procesos.
-- Cambios en bases de datos.
+- Nuevos procesos.
+- Modificaciones de liquidación.
 - Integraciones entre sistemas.
+- Cambios contables.
+- Modificación masiva de datos.
+- Cambio de arquitectura.
+- Migración de servidores.
+- Cambio de motor de base de datos.
 
 ### Cambio de Emergencia
 
-Cambio requerido para restablecer un servicio crítico o mitigar un incidente grave.
+Cambio requerido para restablecer un servicio crítico, atender un incidente de seguridad o mitigar un riesgo operativo inmediato.
 
 ## 5. ROLES Y RESPONSABILIDADES
 
@@ -96,19 +103,27 @@ Todo cambio deberá estar asociado a un ticket, requerimiento, incidente o neces
 
 ### 6.2
 
-Los cambios deberán realizarse preferentemente en ambientes distintos al de producción antes de su despliegue.
+Los cambios se clasificarán como menores, mayores o de emergencia, considerando impacto, riesgo, urgencia, criticidad y alcance.
 
 ### 6.3
 
-Todo cambio deberá contar con evidencia mínima de validación.
+Los cambios deberán realizarse preferentemente en ambientes distintos al de producción antes de su despliegue.
 
 ### 6.4
 
-Cuando el cambio implique riesgos significativos, deberá definirse un mecanismo de reversión.
+Todo cambio deberá contar con una validación proporcional a su impacto.
 
 ### 6.5
 
+Cuando el cambio implique riesgos significativos o sea clasificado como cambio mayor, deberá definirse un mecanismo de reversión.
+
+### 6.6
+
 No se realizarán cambios directos en producción sin autorización de la Coordinación TIC, salvo situaciones de emergencia.
+
+### 6.7
+
+La gestión de cambios no requiere la constitución de un comité permanente. Los cambios mayores deberán contar con aprobación formal proporcional al impacto, en la que participen la Coordinación TIC, el responsable técnico y el área usuaria o responsable funcional cuando corresponda.
 
 ## 7. PROCEDIMIENTO DE GESTIÓN DE CAMBIOS
 
@@ -138,10 +153,19 @@ El responsable técnico evaluará:
 - Riesgo.
 - Dependencias.
 - Necesidad de reversión.
+- Tipo de cambio.
 
 ### 7.3 Aprobación
 
-Los cambios normales deberán ser aprobados por la Coordinación TIC.
+La aprobación se realizará de acuerdo con el tipo de cambio:
+
+| Tipo de cambio | Aprobación mínima |
+|----------------|-------------------|
+| Cambio menor | No requiere aprobación formal previa. Debe quedar registrado y contar con validación o conformidad cuando corresponda. |
+| Cambio mayor | Coordinación TIC, responsable técnico y área usuaria o responsable funcional. |
+| Cambio de emergencia | Autorización rápida de Coordinación TIC o responsable designado, con regularización posterior. |
+
+Cuando el cambio mayor tenga impacto institucional significativo, presupuestal, contractual, contable, de seguridad o continuidad operativa, podrá requerirse aprobación de Dirección Ejecutiva u otras áreas competentes.
 
 La aprobación podrá realizarse mediante:
 
@@ -155,18 +179,24 @@ La aprobación podrá realizarse mediante:
 Una vez aprobado el cambio:
 
 - Se realizará el desarrollo o configuración.
-- Se ejecutarán pruebas.
+- Se ejecutarán validaciones o pruebas según corresponda.
 - Se prepararán los componentes para despliegue.
 
 ### 7.5 Validación
 
-Previo al pase a producción deberá existir evidencia de validación técnica o funcional.
+Previo al pase a producción deberá existir evidencia de validación técnica o funcional, proporcional al tipo, riesgo e impacto del cambio.
+
+Para cambios menores bastará una validación simple o evidencia equivalente.
+
+Para cambios mayores deberá conservarse evidencia de validación técnica o funcional.
+
+En cambios de emergencia, la evidencia podrá regularizarse posteriormente.
 
 Las evidencias podrán consistir en:
 
 - Capturas de pantalla.
 - Correos de conformidad.
-- Registro de pruebas.
+- Registro de validaciones o pruebas.
 - Validación del usuario responsable.
 
 ### 7.6 Pase a Producción
@@ -178,6 +208,7 @@ Cuando corresponda deberá realizarse:
 - Respaldo previo.
 - Ventana de implementación.
 - Comunicación a usuarios afectados.
+- Plan de reversión para cambios mayores o de riesgo significativo.
 
 ### 7.7 Cierre
 
@@ -211,6 +242,8 @@ La documentación deberá regularizarse posteriormente.
 
 Todo cambio de emergencia deberá quedar documentado una vez restablecida la operación.
 
+La regularización deberá incluir, como mínimo, la justificación, responsable, acciones ejecutadas, resultado obtenido y evidencia de validación.
+
 ## 9. PLAN DE REVERSIÓN
 
 Cuando el riesgo lo justifique, el cambio deberá contar con un mecanismo de reversión que permita restaurar la situación anterior en caso de falla.
@@ -231,9 +264,11 @@ Todo cambio deberá conservar, según corresponda:
 | Solicitud o requerimiento | Sí |
 | Evaluación técnica | Sí |
 | Aprobación | Sí |
-| Evidencia de pruebas | Sí |
+| Evidencia de validación o pruebas | Según tipo, riesgo e impacto |
 | Evidencia de despliegue | Sí |
 | Conformidad funcional o técnica | Sí |
+| Plan de reversión | Según riesgo / obligatorio para cambios mayores cuando corresponda |
+| Comunicación a usuarios afectados | Según impacto |
 
 ## 11. INDICADORES
 
@@ -271,18 +306,22 @@ Cierre
 
 # ANEXO B
 
-## Formato Simplificado de Cambio
+## Formato de Cambio
 
 ### Información General
 
-- Código o Ticket
-- Fecha
-- Solicitante
-- Responsable Técnico
+- Código o Ticket.
+- Fecha de registro.
+- Solicitante.
+- Responsable Técnico.
 
 ### Descripción del Cambio
 
+Indicar brevemente qué se requiere modificar.
+
 ### Justificación
+
+Indicar la necesidad, incidente o motivo que origina el cambio.
 
 ### Riesgo
 
@@ -290,10 +329,31 @@ Cierre
 - Medio
 - Alto
 
+Indicar el riesgo estimado al registrar o evaluar el cambio.
+
+### Tipo de Cambio
+
+- Menor
+- Mayor
+- Emergencia
+
+Indicar la clasificación del cambio.
+
 ### Plan de Reversión
 
-### Resultado de Pruebas
+Indicar cómo se podría volver al estado anterior si el cambio falla. Para cambios menores puede colocarse "No aplica", "Retirar ajuste" o "Restaurar versión anterior", según corresponda.
 
-### Fecha de Implementación
+## Evidencias Posteriores al Registro del Cambio
 
-### Conformidad
+Luego de registrado el cambio, no será necesario reenviar el Formato de Cambio completo para completar la atención.
+
+La fecha real de implementación, el resultado de validación o pruebas y la conformidad podrán conservarse mediante:
+
+- Comentarios en el ticket.
+- Correo electrónico.
+- Capturas de pantalla.
+- Registro de despliegue.
+- Acta o documento interno cuando corresponda.
+- Cierre técnico o funcional del ticket.
+
+Estas evidencias forman parte del cierre del cambio y podrán registrarse por separado del Formato de Cambio.

@@ -38,6 +38,24 @@ EST-BD-TI
 
 ## Relacion de Documentos
 
+### CASOS-EJEMPLO
+
+Carpeta de apoyo para capacitacion interna. Contiene ejemplos practicos de aplicacion del marco documental y no constituye un documento normativo.
+
+Documentos relacionados:
+
+- PRO-ACC-TI.
+- PRO-CAM-TI.
+- PRO-DES-TI.
+- EST-DES-TI.
+- EST-BD-TI.
+- CAT-SER-TI.
+
+Impactos de cambio:
+
+- Si se modifican evidencias, clasificacion de cambios o flujos de aprobacion, revisar los casos de ejemplo para mantenerlos alineados.
+- Los casos no deben crear obligaciones adicionales a las directivas, procedimientos, estandares o catalogos vigentes.
+
 ### DIR-GOB-TI
 
 Documento marco de gobierno de TI. Define principios, responsabilidades generales, toma de decisiones, portafolio, riesgos, indicadores y mejora continua.
@@ -109,7 +127,7 @@ Impactos de cambio:
 
 ### PRO-CAM-TI
 
-Procedimiento para gestionar cambios tecnologicos de tipo estandar, normal y emergencia.
+Procedimiento para gestionar cambios tecnologicos de tipo menor, mayor y emergencia.
 
 Documentos relacionados:
 
@@ -127,7 +145,7 @@ Impactos de cambio:
 
 ### PRO-DES-TI
 
-Procedimiento para requerimientos, desarrollo, mantenimiento, pruebas, conformidad y despliegue de software.
+Procedimiento para requerimientos, desarrollo, mantenimiento, validacion, conformidad y despliegue de software.
 
 Documentos relacionados:
 
@@ -141,7 +159,7 @@ Impactos de cambio:
 
 - Si se modifican tecnologias preferentes, revisar EST-DES-TI.
 - Si se modifican cambios de base de datos, revisar EST-BD-TI y PRO-CAM-TI.
-- Si se modifican evidencias de pruebas o despliegue, revisar PRO-CAM-TI.
+- Si se modifican evidencias de validacion, pruebas o despliegue, revisar PRO-CAM-TI.
 
 ### PRO-INC-MAY-TI
 
@@ -237,13 +255,13 @@ Impactos de cambio:
 | Gobierno de TI | DIR-GOB-TI | Portafolio o listado de iniciativas, riesgos relevantes, indicadores o informes disponibles. |
 | Gestion de servicios | DIR-GST-TI / CAT-SER-TI | Tickets, registros de atencion, prioridades, responsables y cierre. |
 | Gestion de accesos | PRO-ACC-TI | Solicitud, aprobacion, ticket, implementacion, baja o revision periodica. |
-| Desarrollo de software | PRO-DES-TI | Requerimiento, codigo fuente, pruebas, conformidad y evidencia de despliegue. |
-| Gestion de cambios | PRO-CAM-TI | Solicitud, evaluacion tecnica, aprobacion, pruebas, despliegue y cierre. |
+| Desarrollo de software | PRO-DES-TI | Requerimiento, codigo fuente, validacion o pruebas segun corresponda, conformidad y evidencia de despliegue. |
+| Gestion de cambios | PRO-CAM-TI | Solicitud, evaluacion tecnica, aprobacion cuando corresponda, validacion proporcional, despliegue y cierre. |
 | Respaldos y recuperacion | PRO-RES-TI | Logs, registros de ejecucion, verificaciones, solicitudes de restauracion y pruebas de recuperacion. |
 | Incidentes mayores | PRO-INC-MAY-TI | Registro del incidente, comunicaciones, acciones realizadas, validacion y cierre. |
 | Seguridad de informacion | DIR-SEG-TI | Controles aplicados, revisiones de acceso, gestion de incidentes y evidencias de monitoreo cuando corresponda. |
-| Base de datos | EST-BD-TI | Scripts, aprobaciones, pruebas, registro de despliegue, respaldo o plan de reversa cuando corresponda. |
-| Desarrollo y codigo fuente | EST-DES-TI | Repositorio, trazabilidad de version, documentacion minima y evidencia de pruebas. |
+| Base de datos | EST-BD-TI | Scripts, aprobaciones cuando correspondan, validacion proporcional, registro de despliegue, respaldo o plan de reversa cuando corresponda. |
+| Desarrollo y codigo fuente | EST-DES-TI | Repositorio, trazabilidad de version, documentacion minima y evidencia de validacion o pruebas segun corresponda. |
 
 ## Criterios de Consistencia
 

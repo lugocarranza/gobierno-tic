@@ -72,11 +72,17 @@ No se asume la existencia de estructuras complejas como PMO, oficina especializa
 
 - CAT-SER-TI: Catalogo de Servicios de Tecnologias de Informacion.
 
+### Material de Apoyo
+
+- CASOS-EJEMPLO: Casos practicos para capacitacion sobre evidencias, documentos recibidos, documentos generados y sustento documental aplicable.
+
 ## Uso del Marco Documental
 
 Antes de modificar un documento, se debe revisar el `MAPA-DOCUMENTAL.md` para identificar dependencias, documentos relacionados e impactos potenciales.
 
 Las actualizaciones deben mantener coherencia entre directivas, procedimientos, estandares y catalogos, evitando duplicidades o exigencias que resulten desproporcionadas para la capacidad operativa del area de TI.
+
+La carpeta `CASOS-EJEMPLO` es material orientador y no reemplaza ni modifica las directivas, procedimientos, estandares o catalogos vigentes.
 
 ## Evidencia y Auditoria
 

@@ -11,7 +11,7 @@ estado: Vigente
 
 ## 1. FINALIDAD
 
-Establecer el procedimiento para la atención de requerimientos, desarrollo, mantenimiento, pruebas y despliegue de software administrado por el Fondo de Inclusión Social Energético (FISE), garantizando la trazabilidad y calidad mínima de las soluciones implementadas.
+Establecer el procedimiento para la atención de requerimientos, desarrollo, mantenimiento, validación y despliegue de software administrado por el Fondo de Inclusión Social Energético (FISE), garantizando la trazabilidad y calidad mínima de las soluciones implementadas.
 
 ## 2. OBJETIVO
 
@@ -93,7 +93,7 @@ Todo código fuente deberá almacenarse en el repositorio institucional.
 
 ### 6.5
 
-Todo despliegue deberá contar con evidencia mínima de pruebas.
+Todo despliegue deberá contar con evidencia mínima de validación o pruebas, según la complejidad, riesgo e impacto del cambio.
 
 ## 7. CICLO DE DESARROLLO
 
@@ -138,26 +138,28 @@ Podrá incluir:
 - Reportes.
 - Automatizaciones.
 
-### 7.4 Pruebas Técnicas
+### 7.4 Validación Técnica
 
-El desarrollador verificará como mínimo:
+El desarrollador verificará, según corresponda:
 
 - Funcionamiento correcto.
 - Integridad de datos.
 - Manejo de errores.
 - Compatibilidad con procesos existentes.
 
+Para cambios simples o de bajo impacto, la validación podrá consistir en una revisión funcional básica, revisión visual, captura de pantalla, resultado de ejecución o evidencia equivalente.
+
 La evidencia podrá consistir en:
 
 - Capturas de pantalla.
 - Resultados de ejecución.
-- Registro de pruebas.
+- Registro de validaciones o pruebas.
 - Videos.
 - Correos electrónicos.
 
-### 7.5 Pruebas Funcionales
+### 7.5 Validación Funcional
 
-El usuario responsable validará:
+El usuario responsable validará, cuando corresponda:
 
 - Cumplimiento del requerimiento.
 - Resultados esperados.
@@ -218,7 +220,7 @@ Todo desarrollo deberá conservar, como mínimo:
 | Requerimiento | Sí |
 | Registro del ticket | Sí |
 | Código fuente | Sí |
-| Evidencia de pruebas | Sí |
+| Evidencia de validación o pruebas | Según complejidad, riesgo e impacto |
 | Conformidad funcional | Sí |
 | Evidencia de despliegue | Sí |
 
@@ -247,9 +249,9 @@ Análisis
 ↓
 Desarrollo
 ↓
-Pruebas Técnicas
+Validación Técnica
 ↓
-Pruebas Funcionales
+Validación Funcional
 ↓
 Aprobación Usuario
 ↓
@@ -268,6 +270,6 @@ Se consideran evidencias válidas:
 - Correos electrónicos.
 - Actas.
 - Capturas de pantalla.
-- Reportes de pruebas.
+- Reportes de validación o pruebas.
 - Registros de despliegue.
 - Versiones almacenadas en repositorio.

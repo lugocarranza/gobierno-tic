@@ -171,7 +171,11 @@ Previo a la puesta en producción, los desarrollos deberán ser evaluados consid
 - Disponibilidad.
 - Mantenibilidad.
 
-Las pruebas podrán realizarse de forma manual o mediante herramientas especializadas según la complejidad del sistema.
+Las validaciones o pruebas deberán ser proporcionales a la complejidad, riesgo e impacto del cambio.
+
+Para cambios simples o de bajo impacto, podrá bastar una validación funcional, visual, revisión del resultado, captura de pantalla o evidencia equivalente.
+
+Para cambios de mayor impacto, se deberá conservar evidencia razonable de validación técnica o funcional. Las pruebas podrán realizarse de forma manual o mediante herramientas especializadas según la complejidad del sistema.
 
 ## 10. SISTEMAS LEGADOS
 
@@ -188,7 +192,7 @@ Todo desarrollo o mejora significativa deberá contar, como mínimo, con la sigu
 - Documento de requerimiento o necesidad.
 - Código fuente almacenado en repositorio institucional.
 - Documento técnico o arquitectura simplificada.
-- Evidencia de pruebas realizadas.
+- Evidencia de validación o pruebas realizadas, según corresponda.
 - Evidencia de despliegue cuando corresponda.
 
 ## 12. EXCEPCIONES

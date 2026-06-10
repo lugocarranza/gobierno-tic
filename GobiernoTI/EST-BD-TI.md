@@ -211,7 +211,7 @@ Para mantener una carga operativa razonable en una estructura de TI pequeña, se
 - Nomenclatura consistente para tablas y columnas nuevas o modificadas.
 - Clave primaria en tablas nuevas, salvo justificación técnica documentada.
 - Campos de auditoría en tablas relevantes cuando resulte aplicable.
-- Validación previa de cambios DDL o DML relevantes.
+- Validación previa de cambios DDL o DML relevantes, proporcional al riesgo e impacto.
 - Asociación de cambios a un ticket, requerimiento o cambio aprobado.
 - Evidencia de despliegue, resultado y conformidad cuando corresponda.
 - Respaldo o mecanismo de reversión para cambios de riesgo medio o alto.
@@ -1201,7 +1201,7 @@ MERGE
 - Todo script DML deberá encontrarse asociado a un requerimiento, ticket o cambio aprobado.
 - Los cambios deberán ser trazables.
 - Cuando corresponda, deberá existir respaldo previo de la información afectada.
-- Las operaciones masivas deberán validarse previamente en ambientes de certificación.
+- Las operaciones masivas deberán validarse previamente en ambientes de certificación o mediante un mecanismo equivalente, según disponibilidad operativa.
 
 ### Evidencias Recomendadas
 
@@ -1240,14 +1240,14 @@ RENAME
 ### Lineamientos
 
 - Todo cambio DDL deberá gestionarse mediante el Procedimiento de Gestión de Cambios.
-- Deberá existir validación previa en ambientes de desarrollo y certificación.
+- Deberá existir validación previa proporcional al riesgo e impacto del cambio.
 - Los cambios deberán encontrarse documentados.
 - Deberá evaluarse el impacto sobre aplicaciones existentes.
 
 ### Evidencias Requeridas
 
 - Script DDL.
-- Evidencia de pruebas.
+- Evidencia de validación o pruebas, según corresponda.
 - Aprobación correspondiente.
 - Registro del despliegue.
 
