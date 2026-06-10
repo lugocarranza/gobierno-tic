@@ -1,0 +1,273 @@
+---
+codigo: PRO-DES-TI
+titulo: Procedimiento de Desarrollo y Mantenimiento de Software
+version: 1.0
+tipo: Procedimiento
+responsable: Coordinación de Tecnologías de Información
+estado: Vigente
+---
+
+# PROCEDIMIENTO DE DESARROLLO Y MANTENIMIENTO DE SOFTWARE
+
+## 1. FINALIDAD
+
+Establecer el procedimiento para la atención de requerimientos, desarrollo, mantenimiento, pruebas y despliegue de software administrado por el Fondo de Inclusión Social Energético (FISE), garantizando la trazabilidad y calidad mínima de las soluciones implementadas.
+
+## 2. OBJETIVO
+
+Asegurar que todo desarrollo o modificación de software sea gestionado de manera controlada, documentada y alineada a las necesidades institucionales.
+
+## 3. ALCANCE
+
+Aplica a:
+
+- Nuevos desarrollos.
+- Mantenimientos correctivos.
+- Mantenimientos evolutivos.
+- Integraciones entre sistemas.
+- Reportes y consultas especializadas.
+- Ajustes de bases de datos asociados a aplicaciones.
+
+Comprende los sistemas institucionales administrados por el FISE.
+
+## 4. DOCUMENTOS RELACIONADOS
+
+- Directiva de Gestión de Servicios TI.
+- Directiva de Seguridad de la Información.
+- Estándares de Código Fuente.
+- Estándares de Base de Datos.
+- Procedimiento de Gestión de Cambios.
+
+## 5. ROLES Y RESPONSABILIDADES
+
+### 5.1 Usuario Solicitante
+
+Responsable de:
+
+- Identificar la necesidad.
+- Proporcionar información funcional.
+- Validar el resultado obtenido.
+
+### 5.2 Coordinación TIC
+
+Responsable de:
+
+- Priorizar requerimientos.
+- Asignar responsables.
+- Autorizar el pase a producción cuando corresponda.
+
+### 5.3 Analista / Desarrollador
+
+Responsable de:
+
+- Analizar la solicitud.
+- Realizar el desarrollo.
+- Documentar los cambios.
+- Ejecutar pruebas técnicas.
+
+### 5.4 Usuario Responsable del Proceso
+
+Responsable de:
+
+- Ejecutar pruebas funcionales.
+- Validar los resultados.
+- Brindar conformidad para producción.
+
+## 6. POLÍTICAS GENERALES
+
+### 6.1
+
+Todo desarrollo deberá originarse a partir de un requerimiento formal.
+
+### 6.2
+
+Todo desarrollo deberá estar registrado en la herramienta institucional de seguimiento (Mesa de Servicios, Jira u otra).
+
+### 6.3
+
+No se realizarán cambios directos en producción sin autorización previa, salvo incidentes de emergencia debidamente justificados.
+
+### 6.4
+
+Todo código fuente deberá almacenarse en el repositorio institucional.
+
+### 6.5
+
+Todo despliegue deberá contar con evidencia mínima de pruebas.
+
+## 7. CICLO DE DESARROLLO
+
+### 7.1 Registro del Requerimiento
+
+El requerimiento podrá originarse mediante:
+
+- Ticket.
+- Correo electrónico.
+- Memorando.
+- Documento funcional.
+- Acta de reunión.
+
+La solicitud deberá indicar como mínimo:
+
+- Necesidad identificada.
+- Objetivo.
+- Usuario responsable.
+- Prioridad.
+
+### 7.2 Análisis
+
+El responsable técnico evaluará:
+
+- Alcance.
+- Impacto.
+- Complejidad.
+- Riesgos.
+- Dependencias.
+
+Cuando corresponda podrá elaborarse una especificación funcional simplificada.
+
+### 7.3 Desarrollo
+
+El desarrollo deberá realizarse siguiendo los estándares institucionales vigentes.
+
+Podrá incluir:
+
+- Desarrollo de software.
+- Ajustes de base de datos.
+- Integraciones.
+- Reportes.
+- Automatizaciones.
+
+### 7.4 Pruebas Técnicas
+
+El desarrollador verificará como mínimo:
+
+- Funcionamiento correcto.
+- Integridad de datos.
+- Manejo de errores.
+- Compatibilidad con procesos existentes.
+
+La evidencia podrá consistir en:
+
+- Capturas de pantalla.
+- Resultados de ejecución.
+- Registro de pruebas.
+- Videos.
+- Correos electrónicos.
+
+### 7.5 Pruebas Funcionales
+
+El usuario responsable validará:
+
+- Cumplimiento del requerimiento.
+- Resultados esperados.
+- Operatividad del proceso.
+
+La conformidad podrá otorgarse mediante:
+
+- Correo electrónico.
+- Ticket.
+- Acta.
+- Documento de conformidad.
+
+### 7.6 Pase a Producción
+
+Una vez obtenida la conformidad funcional:
+
+- Se programará el despliegue.
+- Se ejecutarán los cambios autorizados.
+- Se registrará la fecha de implementación.
+
+Cuando corresponda, se realizará respaldo previo.
+
+### 7.7 Cierre
+
+La solicitud se considerará concluida cuando:
+
+- El cambio se encuentre en producción.
+- Exista conformidad funcional.
+- Se registren las evidencias correspondientes.
+
+## 8. MANTENIMIENTO CORRECTIVO
+
+Corresponde a la corrección de errores que afecten el funcionamiento de una aplicación.
+
+Las correcciones seguirán el mismo flujo definido en el presente procedimiento.
+
+Cuando la urgencia lo justifique podrán aplicarse mecanismos abreviados de aprobación.
+
+## 9. MANTENIMIENTO EVOLUTIVO
+
+Corresponde a mejoras, optimizaciones o nuevas funcionalidades solicitadas por los usuarios.
+
+Su implementación seguirá el ciclo completo establecido en este procedimiento.
+
+## 10. CAMBIOS DE EMERGENCIA
+
+Cuando un incidente crítico requiera una atención inmediata:
+
+- Se podrá ejecutar el cambio con autorización verbal o por correo.
+- La regularización documental deberá completarse posteriormente.
+
+## 11. EVIDENCIAS MÍNIMAS
+
+Todo desarrollo deberá conservar, como mínimo:
+
+| Evidencia | Obligatoria |
+|------------|-------------|
+| Requerimiento | Sí |
+| Registro del ticket | Sí |
+| Código fuente | Sí |
+| Evidencia de pruebas | Sí |
+| Conformidad funcional | Sí |
+| Evidencia de despliegue | Sí |
+
+## 12. INDICADORES
+
+La Coordinación TIC podrá monitorear:
+
+- Requerimientos atendidos.
+- Tiempo promedio de implementación.
+- Incidentes posteriores a producción.
+- Cambios implementados.
+- Requerimientos pendientes.
+
+## 13. VIGENCIA
+
+El presente procedimiento entra en vigor a partir de su aprobación.
+
+# ANEXO A
+
+## Flujo Simplificado
+
+```text
+Requerimiento
+↓
+Análisis
+↓
+Desarrollo
+↓
+Pruebas Técnicas
+↓
+Pruebas Funcionales
+↓
+Aprobación Usuario
+↓
+Pase a Producción
+↓
+Cierre
+```
+
+# ANEXO B
+
+## Evidencias Aceptadas
+
+Se consideran evidencias válidas:
+
+- Tickets.
+- Correos electrónicos.
+- Actas.
+- Capturas de pantalla.
+- Reportes de pruebas.
+- Registros de despliegue.
+- Versiones almacenadas en repositorio.
