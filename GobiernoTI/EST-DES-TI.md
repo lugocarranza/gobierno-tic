@@ -192,8 +192,11 @@ Todo desarrollo o mejora significativa deberá contar, como mínimo, con la sigu
 - Documento de requerimiento o necesidad.
 - Código fuente almacenado en repositorio institucional.
 - Documento técnico o arquitectura simplificada.
+- Manual de usuario, guía breve o instructivo actualizado, cuando el cambio modifique la forma de uso del sistema.
 - Evidencia de validación o pruebas realizadas, según corresponda.
 - Evidencia de despliegue cuando corresponda.
+
+El manual de usuario o instructivo deberá actualizarse cuando el desarrollo incorpore o modifique pantallas, pasos de atención, reglas visibles para el usuario, perfiles, reportes, mensajes relevantes o cualquier funcionalidad que cambie la operación habitual del sistema. Para cambios menores bastará una guía breve, captura comentada, correo instructivo o actualización del material existente, según corresponda.
 
 ## 12. EXCEPCIONES
 

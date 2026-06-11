@@ -174,7 +174,7 @@ La conformidad podrá otorgarse mediante:
 
 ### 7.6 Pase a Producción
 
-Una vez obtenida la conformidad funcional:
+Una vez obtenida la validación o conformidad que corresponda:
 
 - Se programará el despliegue.
 - Se ejecutarán los cambios autorizados.
@@ -189,7 +189,7 @@ Cuando corresponda, se realizará respaldo previo.
 La solicitud se considerará concluida cuando:
 
 - El cambio se encuentre en producción.
-- Exista conformidad funcional.
+- Exista conformidad funcional o técnica, cuando corresponda.
 - Se registren las evidencias correspondientes.
 
 ## 8. MANTENIMIENTO CORRECTIVO
@@ -223,7 +223,9 @@ Todo desarrollo deberá conservar, como mínimo:
 | Registro del ticket | Sí |
 | Código fuente | Sí |
 | Evidencia de validación o pruebas | Según complejidad, riesgo e impacto |
-| Conformidad funcional | Sí |
+| Conformidad funcional | Sí, cuando corresponda según tipo, riesgo e impacto |
+| Manual de usuario, guía o instructivo actualizado | Cuando el cambio modifique la forma de uso del sistema |
+| Documento técnico o arquitectura simplificada | Cuando el desarrollo o mejora sea significativo |
 | Evidencia de despliegue | Sí |
 | Autorización de pase a producción | Sí, cuando aplique despliegue |
 
@@ -276,3 +278,5 @@ Se consideran evidencias válidas:
 - Reportes de validación o pruebas.
 - Registros de despliegue.
 - Versiones almacenadas en repositorio.
+- Manuales de usuario, guías breves, instructivos o capturas comentadas.
+- Documentos técnicos, arquitectura simplificada o notas técnicas.

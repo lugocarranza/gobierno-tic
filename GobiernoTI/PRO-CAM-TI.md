@@ -225,7 +225,7 @@ Cuando corresponda deberá realizarse:
 El cambio se considerará concluido cuando:
 
 - Se encuentre implementado.
-- Exista conformidad funcional o técnica.
+- Exista conformidad funcional o técnica, cuando corresponda.
 - Se registren las evidencias correspondientes.
 
 ## 8. CAMBIOS DE EMERGENCIA
@@ -273,11 +273,11 @@ Todo cambio deberá conservar, según corresponda:
 |------------|-------------|
 | Solicitud o requerimiento | Sí |
 | Evaluación técnica | Sí |
-| Aprobación | Sí |
+| Aprobación del cambio | Según tipo de cambio; el cambio menor no requiere aprobación formal previa |
 | Evidencia de validación o pruebas | Según tipo, riesgo e impacto |
 | Evidencia de despliegue | Sí |
 | Autorización de pase a producción | Sí, cuando aplique despliegue |
-| Conformidad funcional o técnica | Sí |
+| Conformidad funcional o técnica | Sí, cuando corresponda |
 | Plan de reversión | Según riesgo / obligatorio para cambios mayores cuando corresponda |
 | Comunicación a usuarios afectados | Según impacto |
 

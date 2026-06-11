@@ -30,6 +30,7 @@ Al cierre del ticket Kanban, historia de usuario en sprint de Jira o herramienta
 | Anexo B - Formato de Cambio | Campos del ticket, comentario estructurado o adjunto | PRO-CAM-TI |
 | Registro de implementacion | Commit, comentario tecnico, bitacora o enlace a repositorio | PRO-DES-TI / EST-DES-TI |
 | Validacion simple | Captura, comentario de conformidad o revision funcional | PRO-CAM-TI / PRO-DES-TI |
+| Guia breve, captura comentada o actualizacion de instructivo | Solo si el filtro cambia la forma de uso habitual o requiere comunicacion al usuario | PRO-DES-TI / EST-DES-TI |
 | Autorizacion de pase a produccion | Comentario en el mismo ticket o historia | PRO-CAM-TI / PRO-DES-TI |
 | Fecha real de implementacion | Comentario en ticket, registro de despliegue o cierre tecnico | PRO-CAM-TI |
 | Cierre | Estado cerrado con resumen del resultado | DIR-GST-TI |
@@ -51,6 +52,7 @@ Al cierre del ticket Kanban, historia de usuario en sprint de Jira o herramienta
 | Analisis | Confirmacion de que es cambio menor | Responsable tecnico | Anexo B o comentario en ticket |
 | Implementacion | Registro del cambio realizado en repositorio o bitacora | Desarrollador | Repositorio o ticket |
 | Validacion | Captura del filtro implementado o resultado de revision | Desarrollador / Usuario solicitante | Ticket |
+| Documentacion | Guia breve, captura comentada o instructivo actualizado, si corresponde | Desarrollador / Usuario solicitante | Ticket, correo o repositorio documental |
 | Pase a produccion | Autorizacion de pase en el mismo ticket o comentario | Coordinacion TIC | Ticket o historia de usuario |
 | Cierre | Conformidad simple o cierre del ticket | Usuario solicitante / Coordinacion TIC | Ticket o correo |
 
@@ -102,6 +104,8 @@ Para este tipo de cambio basta una evidencia simple, por ejemplo:
 - Cierre del ticket con descripcion del cambio.
 
 No se requieren pruebas unitarias obligatorias ni aprobacion formal previa.
+
+El manual de usuario o instructivo no es obligatorio para todo cambio menor. Se actualiza solo cuando el ajuste modifica la forma en que el usuario opera el sistema o cuando se necesita comunicar el nuevo uso; en ese caso puede bastar una captura comentada, una guia breve o un comentario instructivo en el ticket.
 
 La autorizacion del pase a produccion puede registrarse en el mismo ticket o historia, por ejemplo: "Cambio menor validado. Se autoriza pase a produccion".
 

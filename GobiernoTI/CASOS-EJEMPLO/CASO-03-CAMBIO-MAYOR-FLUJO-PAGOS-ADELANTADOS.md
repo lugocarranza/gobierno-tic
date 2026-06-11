@@ -33,6 +33,8 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Evidencia de desarrollo | Commits, version, merge request o enlace a repositorio | PRO-DES-TI / EST-DES-TI |
 | Scripts y validacion de base de datos, si aplica | Scripts adjuntos, enlace a repositorio o registro tecnico | EST-BD-TI |
 | Plan de reversion o mecanismo equivalente | Campo del Anexo B, documento o comentario tecnico | PRO-CAM-TI / EST-BD-TI |
+| Manual de usuario, guia de uso o instructivo actualizado | Documento, enlace, correo, captura comentada o material de capacitacion | PRO-DES-TI / EST-DES-TI |
+| Documento tecnico o arquitectura simplificada | Documento interno, nota tecnica, enlace a repositorio o adjunto | EST-DES-TI |
 | Validacion tecnica y funcional | Capturas, reportes, correo, acta o comentario de conformidad | PRO-DES-TI |
 | Autorizacion de pase a produccion | Comentario, correo, aprobacion en ticket principal o registro de despliegue | PRO-CAM-TI / PRO-DES-TI |
 | Fecha real de implementacion | Registro de despliegue, comentario en ticket o bitacora tecnica | PRO-CAM-TI / PRO-DES-TI |
@@ -59,6 +61,8 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Desarrollo | Registro de cambios en repositorio | Desarrollador | Repositorio institucional |
 | Base de datos | Scripts DDL o DML, si corresponden | Responsable BD / Desarrollador | Repositorio, ticket o carpeta tecnica |
 | Preparacion | Plan de reversion o mecanismo de rollback | Responsable tecnico / Responsable BD | Ticket o documento interno |
+| Documentacion funcional | Manual de usuario, guia de uso o instructivo actualizado | Responsable funcional / Desarrollador | Ticket, repositorio documental o correo |
+| Documentacion tecnica | Documento tecnico o arquitectura simplificada | Responsable tecnico | Repositorio, ticket o documento interno |
 | Validacion | Evidencia de validacion tecnica y funcional | Desarrollador / Usuario responsable | Capturas, registros, correo o acta |
 | Pase a produccion | Autorizacion del pase a produccion | Coordinacion TIC | Ticket principal, historia, correo o registro de despliegue |
 | Despliegue | Evidencia de implementacion en produccion | Coordinacion TIC / Responsable tecnico | Ticket o registro de despliegue |
@@ -98,6 +102,8 @@ La evidencia debe ser proporcional al impacto. Puede incluir:
 - Resultado de ejecucion de scripts, si aplica.
 - Revision de reportes o datos generados.
 - Conformidad del area usuaria.
+
+Como el caso modifica la forma de atencion del usuario, debe actualizarse el manual de usuario, guia de uso o instructivo disponible. La evidencia puede ser el documento actualizado, un enlace, un correo de comunicacion, material de capacitacion o una captura comentada si el cambio es acotado.
 
 ## Llenado Referencial del Anexo B
 
@@ -147,6 +153,8 @@ El caso se considera cerrado cuando:
 - Evidencia de desarrollo o configuracion.
 - Scripts y validacion de base de datos, si aplica.
 - Plan de reversion o mecanismo equivalente, si corresponde.
+- Manual de usuario, guia de uso o instructivo actualizado.
+- Documento tecnico o arquitectura simplificada.
 - Evidencia de validacion tecnica o funcional.
 - Autorizacion de pase a produccion.
 - Evidencia de despliegue.
