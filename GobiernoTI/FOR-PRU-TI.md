@@ -7,14 +7,6 @@
 | Aprobado mediante | RDE XX-2026 |
 | Área Responsable | Tecnologías de la Información |
 
-## Uso del Formato
-
-Este formato es referencial y puede utilizarse para consolidar evidencia de validación técnica, funcional o pruebas realizadas antes del pase a producción o como parte del cierre de un requerimiento, cambio o incidente.
-
-El contenido mínimo podrá registrarse en este documento, en Jira, Mesa de Servicios, correo institucional, capturas, comentarios estructurados, reportes, logs o registros equivalentes. Para cambios simples o de bajo impacto, bastará una validación proporcional si queda evidencia suficiente en el registro principal.
-
-Este formato no reemplaza la conformidad del área usuaria, la aprobación del cambio ni la autorización del pase a producción.
-
 ## 1. Datos Generales
 
 | Campo | Valor |
@@ -55,6 +47,14 @@ Incorporar o referenciar las evidencias que sustentan la validación realizada, 
 | Responsable | |
 | Fecha | |
 | Observaciones | |
+
+## Uso del Formato
+
+Este formato es referencial y puede utilizarse para consolidar evidencia de validación técnica, funcional o pruebas realizadas antes del pase a producción o como parte del cierre de un requerimiento, cambio o incidente.
+
+El contenido mínimo podrá registrarse en este documento, en Jira, Mesa de Servicios, correo institucional, capturas, comentarios estructurados, reportes, logs o registros equivalentes. Para cambios simples o de bajo impacto, bastará una validación proporcional si queda evidencia suficiente en el registro principal.
+
+Este formato no reemplaza la conformidad del área usuaria, la aprobación del cambio ni la autorización del pase a producción.
 
 ## Ejemplo Orientador
 

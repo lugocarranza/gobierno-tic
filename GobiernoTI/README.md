@@ -74,7 +74,7 @@ No se asume la existencia de estructuras complejas como PMO, oficina especializa
 
 ### Formatos Referenciales
 
-- FOR-REQ-TI: Formato Referencial de Requerimiento de Software.
+- FOR-REQ-TI: Formato Referencial de Especificacion de Requerimientos.
 - FOR-PRU-TI: Formato Referencial de Evidencia de Validacion o Pruebas.
 - FOR-DES-TI: Formato Referencial de Despliegue de Software.
 

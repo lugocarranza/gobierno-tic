@@ -27,7 +27,7 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Documento o evidencia final | Puede estar como | Sustento |
 |-----------------------------|------------------|----------|
 | Requerimiento formal o historia de usuario | Historia, ticket, acta, correo o documento adjunto | PRO-DES-TI / DIR-GST-TI |
-| FOR-REQ-TI - Requerimiento de Software | Formato referencial, campos de Jira o documento equivalente | PRO-DES-TI / EST-DES-TI |
+| FOR-REQ-TI - Especificacion de Requerimientos | Formato referencial, campos de Jira o documento equivalente | PRO-DES-TI / EST-DES-TI |
 | Anexo B - Formato de Cambio | Campos del ticket, comentario estructurado o adjunto | PRO-CAM-TI |
 | Evaluacion tecnica e impacto | Comentario tecnico, documento interno o adjunto | PRO-CAM-TI / PRO-DES-TI |
 | Aprobacion formal proporcional | Aprobacion en ticket, correo, acta o documento interno | PRO-CAM-TI |

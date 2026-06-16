@@ -7,16 +7,6 @@
 | Aprobado mediante | RDE XX-2026 |
 | Área Responsable | Tecnologías de la Información |
 
-## Uso del Formato
-
-Este formato es referencial y se utiliza para preparar o consolidar la información necesaria antes de ejecutar un pase a producción o despliegue coordinado.
-
-Se recomienda cuando el despliegue agrupe varios cambios, requiera ventana coordinada, incluya scripts, respaldo previo, plan de reversión, comunicación a usuarios o coordinación especial.
-
-El contenido mínimo podrá registrarse en este documento, en Jira, Mesa de Servicios, correo institucional, comentario estructurado, bitácora, registro de despliegue o medio equivalente. No es obligatorio crear un registro separado de despliegue si el ticket o historia contiene la información suficiente.
-
-Este formato no reemplaza la aprobación del cambio ni la autorización del pase a producción; dichas evidencias deberán constar en el ticket, correo, comentario, acta, registro de despliegue o documento equivalente.
-
 ## 1. Datos Generales
 
 | Campo | Valor |
@@ -26,7 +16,6 @@ Este formato no reemplaza la aprobación del cambio ni la autorización del pase
 | Ambiente | Producción / Pruebas / Otro |
 | Responsable del despliegue | |
 | Fecha programada | |
-| Ventana de implementación | |
 | Autorización de pase a producción | Ticket / correo / comentario / acta / otro |
 
 ## 2. Descripción del Despliegue
@@ -80,6 +69,16 @@ Indicar cómo se retornará al estado anterior si el despliegue presenta fallas.
 ## Nota Posterior al Pase
 
 Los datos generados después de ejecutar el pase, como día y hora efectiva, comprobaciones realizadas, comunicaciones enviadas, resultado obtenido o incidencias, deberán registrarse luego en el ticket, comentario, bitácora, registro de despliegue, cierre técnico o medio equivalente.
+
+## Uso del Formato
+
+Este formato es referencial y se utiliza para preparar o consolidar la información necesaria antes de ejecutar un pase a producción o despliegue coordinado.
+
+Se recomienda cuando el despliegue agrupe varios cambios, requiera una ventana coordinada, incluya scripts, respaldo previo, plan de reversión, comunicación a usuarios o coordinación especial. Cuando exista ventana coordinada, podrá indicarse en la descripción del despliegue o en el ticket.
+
+El contenido mínimo podrá registrarse en este documento, en Jira, Mesa de Servicios, correo institucional, comentario estructurado, bitácora, registro de despliegue o medio equivalente. No es obligatorio crear un registro separado de despliegue si el ticket o historia contiene la información suficiente.
+
+Este formato no reemplaza la aprobación del cambio ni la autorización del pase a producción; dichas evidencias deberán constar en el ticket, correo, comentario, acta, registro de despliegue o documento equivalente.
 
 ## Ejemplo Orientador
 

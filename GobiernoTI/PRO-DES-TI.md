@@ -114,7 +114,7 @@ La solicitud deberá indicar como mínimo:
 - Usuario responsable.
 - Prioridad.
 
-Para desarrollos nuevos, mejoras significativas o cambios funcionales relevantes, podrá utilizarse el FOR-REQ-TI - Formato Referencial de Requerimiento de Software, o campos equivalentes en Jira, Mesa de Servicios, correo, historia de usuario o documento similar. Para requerimientos simples bastará que el registro principal contenga la información mínima necesaria.
+Para desarrollos nuevos, mejoras significativas o cambios funcionales relevantes, podrá utilizarse el FOR-REQ-TI - Formato Referencial de Especificación de Requerimientos, o campos equivalentes en Jira, Mesa de Servicios, correo, historia de usuario o documento similar. Para requerimientos simples bastará que el registro principal contenga la información mínima necesaria.
 
 ### 7.2 Análisis
 
