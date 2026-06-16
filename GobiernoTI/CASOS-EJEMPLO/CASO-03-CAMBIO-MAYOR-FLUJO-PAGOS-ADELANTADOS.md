@@ -27,6 +27,7 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Documento o evidencia final | Puede estar como | Sustento |
 |-----------------------------|------------------|----------|
 | Requerimiento formal o historia de usuario | Historia, ticket, acta, correo o documento adjunto | PRO-DES-TI / DIR-GST-TI |
+| FOR-REQ-TI - Requerimiento de Software | Formato referencial, campos de Jira o documento equivalente | PRO-DES-TI / EST-DES-TI |
 | Anexo B - Formato de Cambio | Campos del ticket, comentario estructurado o adjunto | PRO-CAM-TI |
 | Evaluacion tecnica e impacto | Comentario tecnico, documento interno o adjunto | PRO-CAM-TI / PRO-DES-TI |
 | Aprobacion formal proporcional | Aprobacion en ticket, correo, acta o documento interno | PRO-CAM-TI |
@@ -35,7 +36,9 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Plan de reversion o mecanismo equivalente | Campo del Anexo B, documento o comentario tecnico | PRO-CAM-TI / EST-BD-TI |
 | Manual de usuario, guia de uso o instructivo actualizado | Documento, enlace, correo, captura comentada o material de capacitacion | PRO-DES-TI / EST-DES-TI |
 | Documento tecnico o arquitectura simplificada | Documento interno, nota tecnica, enlace a repositorio o adjunto | EST-DES-TI |
+| FOR-PRU-TI - Evidencia de Validacion o Pruebas | Formato referencial, capturas, comentarios, reportes o registro equivalente | PRO-DES-TI / EST-DES-TI |
 | Validacion tecnica y funcional | Capturas, reportes, correo, acta o comentario de conformidad | PRO-DES-TI |
+| FOR-DES-TI - Preparacion del Despliegue | Formato referencial, plan del pase o comentario estructurado previo | PRO-CAM-TI / PRO-DES-TI |
 | Autorizacion de pase a produccion | Comentario, correo, aprobacion en ticket principal o registro de despliegue | PRO-CAM-TI / PRO-DES-TI |
 | Fecha real de implementacion | Registro de despliegue, comentario en ticket o bitacora tecnica | PRO-CAM-TI / PRO-DES-TI |
 | Evidencia de despliegue y cierre | Registro de pase, fecha, responsable y estado cerrado | PRO-CAM-TI / PRO-DES-TI |
@@ -54,6 +57,7 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Momento | Evidencia generada | Responsable sugerido | Conservacion sugerida |
 |---------|--------------------|----------------------|-----------------------|
 | Registro | Ticket o registro del requerimiento | Mesa de Servicios / Coordinacion TIC | Herramienta de seguimiento |
+| Analisis | FOR-REQ-TI o campos equivalentes del requerimiento | Responsable tecnico / Usuario responsable | Ticket, historia o documento adjunto |
 | Evaluacion | Evaluacion tecnica con alcance, impacto, riesgo y dependencias | Responsable tecnico | Ticket, documento interno o correo |
 | Evaluacion | Anexo B - Formato de Cambio | Responsable tecnico / Coordinacion TIC | Ticket o documento adjunto |
 | Evaluacion | Clasificacion como cambio mayor | Responsable tecnico / Coordinacion TIC | Anexo B o evaluacion |
@@ -63,8 +67,10 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Preparacion | Plan de reversion o mecanismo de rollback | Responsable tecnico / Responsable BD | Ticket o documento interno |
 | Documentacion funcional | Manual de usuario, guia de uso o instructivo actualizado | Responsable funcional / Desarrollador | Ticket, repositorio documental o correo |
 | Documentacion tecnica | Documento tecnico o arquitectura simplificada | Responsable tecnico | Repositorio, ticket o documento interno |
+| Validacion | FOR-PRU-TI o registro equivalente de escenarios validados | Desarrollador / Usuario responsable | Ticket, documento adjunto o evidencias enlazadas |
 | Validacion | Evidencia de validacion tecnica y funcional | Desarrollador / Usuario responsable | Capturas, registros, correo o acta |
 | Pase a produccion | Autorizacion del pase a produccion | Coordinacion TIC | Ticket principal, historia, correo o registro de despliegue |
+| Preparacion del despliegue | FOR-DES-TI o registro equivalente del pase a produccion | Coordinacion TIC / Responsable tecnico | Ticket, registro de despliegue o documento adjunto |
 | Despliegue | Evidencia de implementacion en produccion | Coordinacion TIC / Responsable tecnico | Ticket o registro de despliegue |
 | Cierre | Conformidad funcional y cierre | Usuario responsable / Coordinacion TIC | Ticket, correo o acta |
 
@@ -104,6 +110,8 @@ La evidencia debe ser proporcional al impacto. Puede incluir:
 - Conformidad del area usuaria.
 
 Como el caso modifica la forma de atencion del usuario, debe actualizarse el manual de usuario, guia de uso o instructivo disponible. La evidencia puede ser el documento actualizado, un enlace, un correo de comunicacion, material de capacitacion o una captura comentada si el cambio es acotado.
+
+Por tratarse de un cambio mayor, se recomienda usar los formatos referenciales FOR-REQ-TI, FOR-PRU-TI y FOR-DES-TI, o campos equivalentes en Jira, para consolidar el requerimiento, la validacion y la preparacion del despliegue. Su uso no reemplaza la aprobacion del cambio ni la autorizacion del pase a produccion.
 
 ## Llenado Referencial del Anexo B
 
@@ -147,6 +155,7 @@ El caso se considera cerrado cuando:
 ## Evidencia Minima Para Auditoria
 
 - Requerimiento formal.
+- FOR-REQ-TI o campos equivalentes del requerimiento.
 - Anexo B - Formato de Cambio.
 - Evaluacion tecnica.
 - Aprobacion formal proporcional.
@@ -155,7 +164,9 @@ El caso se considera cerrado cuando:
 - Plan de reversion o mecanismo equivalente, si corresponde.
 - Manual de usuario, guia de uso o instructivo actualizado.
 - Documento tecnico o arquitectura simplificada.
+- FOR-PRU-TI o evidencia equivalente de validacion.
 - Evidencia de validacion tecnica o funcional.
 - Autorizacion de pase a produccion.
+- FOR-DES-TI o registro equivalente de preparacion del despliegue, cuando aporte trazabilidad.
 - Evidencia de despliegue.
 - Conformidad y cierre.

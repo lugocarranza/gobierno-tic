@@ -35,6 +35,8 @@ Al cierre del ticket Kanban, historia de usuario en sprint de Jira o herramienta
 | Fecha real de implementacion | Comentario en ticket, registro de despliegue o cierre tecnico | PRO-CAM-TI |
 | Cierre | Estado cerrado con resumen del resultado | DIR-GST-TI |
 
+En un cambio menor, los formatos FOR-REQ-TI, FOR-PRU-TI y FOR-DES-TI no son obligatorios si el ticket, historia, correo o comentario contiene los datos minimos del requerimiento, validacion y pase a produccion. Pueden usarse como apoyo solo cuando aporten claridad o trazabilidad adicional.
+
 ## Documentos o Evidencias Recibidas
 
 | Momento | Evidencia recibida | Responsable sugerido | Para que sirve |
@@ -117,6 +119,7 @@ La autorizacion del pase a produccion puede registrarse en el mismo ticket o his
 | PRO-CAM-TI | Cambio menor, Anexo B - Formato de Cambio, no requiere aprobacion formal previa, validacion proporcional |
 | PRO-DES-TI | Registro de requerimiento, validacion tecnica o funcional, Anexo B - Evidencias Aceptadas y cierre |
 | EST-DES-TI | Validaciones o pruebas proporcionales a complejidad, riesgo e impacto |
+| FOR-REQ-TI / FOR-PRU-TI / FOR-DES-TI | Formatos referenciales opcionales; pueden reemplazarse por campos equivalentes en el ticket |
 
 ## Cierre Esperado
 

@@ -213,6 +213,8 @@ La autorización podrá registrarse en el mismo ticket del cambio, historia de u
 
 El uso de un ticket o registro específico de despliegue será opcional y se recomienda cuando el pase agrupe múltiples cambios, requiera una ventana coordinada, comunicación a usuarios, respaldo previo o plan de reversión.
 
+Cuando resulte útil para preparar o consolidar la información del pase antes de ejecutarlo, podrá utilizarse el FOR-DES-TI - Formato Referencial de Despliegue de Software, o un registro equivalente. Su uso no crea la obligación de abrir un ticket separado de despliegue si el ticket del cambio, historia, correo, comentario o registro existente contiene la información suficiente.
+
 Cuando corresponda deberá realizarse:
 
 - Respaldo previo.

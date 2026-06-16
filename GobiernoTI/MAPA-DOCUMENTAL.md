@@ -34,6 +34,12 @@ EST-BD-TI
 +-- PRO-DES-TI
 +-- PRO-CAM-TI
 +-- PRO-RES-TI
+
+Formatos referenciales
+|
++-- FOR-REQ-TI
++-- FOR-PRU-TI
++-- FOR-DES-TI
 ```
 
 ## Relacion de Documentos
@@ -55,6 +61,24 @@ Impactos de cambio:
 
 - Si se modifican evidencias, clasificacion de cambios o flujos de aprobacion, revisar los casos de ejemplo para mantenerlos alineados.
 - Los casos no deben crear obligaciones adicionales a las directivas, procedimientos, estandares o catalogos vigentes.
+
+### FORMATOS REFERENCIALES
+
+Formatos de apoyo para documentar requerimientos, evidencias de validacion o pruebas y despliegues de software. Pueden usarse como documentos independientes, adjuntos o campos equivalentes en Jira, Mesa de Servicios, correo, comentario estructurado o registro similar.
+
+Documentos relacionados:
+
+- PRO-DES-TI.
+- PRO-CAM-TI.
+- EST-DES-TI.
+- EST-BD-TI.
+
+Impactos de cambio:
+
+- Si se modifican los campos minimos de FOR-REQ-TI, revisar PRO-DES-TI y EST-DES-TI.
+- Si se modifican los campos minimos de FOR-PRU-TI, revisar PRO-DES-TI, PRO-CAM-TI y EST-DES-TI.
+- Si se modifican los campos minimos de FOR-DES-TI, revisar PRO-DES-TI, PRO-CAM-TI y EST-BD-TI.
+- Los formatos referenciales no deben crear obligaciones adicionales cuando el ticket, historia, correo o registro equivalente contiene informacion suficiente.
 
 ### DIR-GOB-TI
 
@@ -257,6 +281,7 @@ Impactos de cambio:
 | Gestion de accesos | PRO-ACC-TI | Solicitud, aprobacion, ticket, implementacion, baja o revision periodica. |
 | Desarrollo de software | PRO-DES-TI | Requerimiento, codigo fuente, validacion o pruebas segun corresponda, conformidad y evidencia de despliegue. |
 | Gestion de cambios | PRO-CAM-TI | Solicitud, evaluacion tecnica, aprobacion cuando corresponda, validacion proporcional, despliegue y cierre. |
+| Formatos referenciales | FOR-REQ-TI / FOR-PRU-TI / FOR-DES-TI | Contenido minimo de requerimiento, validacion o despliegue, o campos equivalentes en Jira, correo, comentario o registro similar. |
 | Respaldos y recuperacion | PRO-RES-TI | Logs, registros de ejecucion, verificaciones, solicitudes de restauracion y pruebas de recuperacion. |
 | Incidentes mayores | PRO-INC-MAY-TI | Registro del incidente, comunicaciones, acciones realizadas, validacion y cierre. |
 | Seguridad de informacion | DIR-SEG-TI | Controles aplicados, revisiones de acceso, gestion de incidentes y evidencias de monitoreo cuando corresponda. |

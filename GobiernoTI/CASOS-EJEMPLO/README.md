@@ -61,7 +61,12 @@ Los casos consideran los anexos operativos del marco documental cuando aplican:
 | PRO-ACC-TI | Anexo A - Formato de Solicitud de Acceso | Alta, modificacion o baja de accesos. Puede estar como formato adjunto o como campos del ticket. |
 | PRO-CAM-TI | Anexo B - Formato de Cambio | Cambios menores, mayores y de emergencia. En emergencia puede regularizarse despues. |
 | PRO-DES-TI | Anexo B - Evidencias Aceptadas | Requerimientos de desarrollo, validacion, despliegue y cierre. |
+| FOR-REQ-TI | Formato Referencial de Requerimiento de Software | Recomendado para desarrollos nuevos, mejoras significativas o cambios funcionales relevantes; puede reemplazarse por campos equivalentes en Jira. |
+| FOR-PRU-TI | Formato Referencial de Evidencia de Validacion o Pruebas | Recomendado cuando existan varios escenarios, riesgo medio/alto o evidencia que convenga consolidar. |
+| FOR-DES-TI | Formato Referencial de Despliegue de Software | Recomendado para despliegues con varios cambios, ventana coordinada, scripts, respaldo, reversa o comunicacion a usuarios. |
 | PRO-INC-MAY-TI | Anexos A y B | Solo cuando el incidente se declare como incidente mayor o se use como referencia de criticidad. |
 | PRO-RES-TI | Anexos A y B | Solo cuando existan respaldos, restauraciones o verificaciones asociadas al caso. |
 
 Los anexos de los estandares tecnicos se usan como referencia tecnica y no como formatos de atencion.
+
+Los formatos referenciales no son obligatorios cuando el ticket, historia, correo, comentario o registro equivalente contiene la informacion minima suficiente.

@@ -32,7 +32,9 @@ Al cierre del ticket Kanban, incidente Jira o herramienta equivalente, deberian 
 | Acciones ejecutadas | Comentario tecnico, commit, bitacora o enlace a repositorio | PRO-CAM-TI / PRO-DES-TI |
 | Anexo B - Formato de Cambio | Regularizado despues de estabilizar la operacion | PRO-CAM-TI |
 | Validacion de recuperacion | Captura, confirmacion del usuario o prueba funcional simple | PRO-CAM-TI / PRO-DES-TI |
+| FOR-PRU-TI o evidencia equivalente | Regularizado despues si conviene consolidar la validacion | PRO-DES-TI |
 | Fecha real de implementacion | Comentario tecnico, bitacora o registro de atencion urgente | PRO-CAM-TI |
+| FOR-DES-TI o registro equivalente | Regularizado despues solo si se requiere resumir la preparacion del pase ejecutado | PRO-CAM-TI / PRO-DES-TI |
 | Evaluacion de incidente mayor, si aplica | Declaracion, resumen o referencia al flujo de incidente mayor | PRO-INC-MAY-TI |
 | Cierre | Estado cerrado con resumen y resultado | DIR-GST-TI |
 
@@ -54,6 +56,7 @@ Al cierre del ticket Kanban, incidente Jira o herramienta equivalente, deberian 
 | Atencion | Acciones ejecutadas para corregir | Responsable tecnico | Ticket, repositorio o bitacora |
 | Validacion inmediata | Evidencia de que la solicitud ya graba correctamente | Responsable tecnico / Usuario afectado | Captura, correo o comentario en ticket |
 | Regularizacion | Anexo B - Formato de Cambio, regularizado posteriormente | Coordinacion TIC / Responsable tecnico | Ticket o documento interno |
+| Regularizacion | FOR-PRU-TI o FOR-DES-TI, si corresponde por riesgo, impacto o necesidad de resumir la validacion o preparacion del pase | Coordinacion TIC / Responsable tecnico | Ticket, registro de despliegue o documento interno |
 | Cierre | Resumen de cierre y conformidad cuando corresponda | Coordinacion TIC / Area usuaria | Ticket cerrado |
 
 ## Flujo Sugerido
@@ -104,6 +107,8 @@ El Anexo B puede completarse despues de restablecer la operacion.
 
 La fecha real de implementacion, validacion y conformidad se registran durante la regularizacion posterior mediante comentarios, correo, evidencia tecnica, cierre del ticket o medio equivalente.
 
+Si la emergencia requirio un despliegue coordinado, scripts, reversa o validaciones que convenga consolidar, el FOR-DES-TI o el FOR-PRU-TI podran completarse despues de estabilizar la operacion. El FOR-DES-TI se usara solo para resumir la preparacion del pase ejecutado; el resultado de la emergencia puede quedar en el ticket, comentario, bitacora o cierre. Si el ticket contiene fecha, responsable, acciones ejecutadas, validacion y resultado, no sera necesario elaborar un formato separado.
+
 ## Sustento Documental
 
 | Documento | Sustento |
@@ -134,5 +139,6 @@ El caso se considera cerrado cuando:
 - Anexo B - Formato de Cambio, regularizado posteriormente.
 - Acciones ejecutadas.
 - Evidencia de validacion.
+- FOR-PRU-TI o FOR-DES-TI regularizado, cuando corresponda por riesgo, impacto o necesidad de resumir la validacion o preparacion del pase.
 - Regularizacion posterior del cambio.
 - Cierre del ticket.

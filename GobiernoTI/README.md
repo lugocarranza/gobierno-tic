@@ -72,6 +72,14 @@ No se asume la existencia de estructuras complejas como PMO, oficina especializa
 
 - CAT-SER-TI: Catalogo de Servicios de Tecnologias de Informacion.
 
+### Formatos Referenciales
+
+- FOR-REQ-TI: Formato Referencial de Requerimiento de Software.
+- FOR-PRU-TI: Formato Referencial de Evidencia de Validacion o Pruebas.
+- FOR-DES-TI: Formato Referencial de Despliegue de Software.
+
+Los formatos referenciales pueden utilizarse como documentos independientes, adjuntos o campos equivalentes en Jira, Mesa de Servicios, correo, comentario estructurado o registro similar. No crean obligaciones adicionales cuando el registro principal contiene la informacion minima suficiente.
+
 ### Material de Apoyo
 
 - CASOS-EJEMPLO: Casos practicos para capacitacion sobre evidencias, documentos recibidos, documentos generados y sustento documental aplicable.

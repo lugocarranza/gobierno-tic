@@ -114,6 +114,8 @@ La solicitud deberá indicar como mínimo:
 - Usuario responsable.
 - Prioridad.
 
+Para desarrollos nuevos, mejoras significativas o cambios funcionales relevantes, podrá utilizarse el FOR-REQ-TI - Formato Referencial de Requerimiento de Software, o campos equivalentes en Jira, Mesa de Servicios, correo, historia de usuario o documento similar. Para requerimientos simples bastará que el registro principal contenga la información mínima necesaria.
+
 ### 7.2 Análisis
 
 El responsable técnico evaluará:
@@ -157,6 +159,8 @@ La evidencia podrá consistir en:
 - Videos.
 - Correos electrónicos.
 
+Cuando existan varios escenarios de validación, riesgo medio o alto, impacto funcional relevante o evidencia técnica que convenga consolidar, podrá utilizarse el FOR-PRU-TI - Formato Referencial de Evidencia de Validación o Pruebas, o un registro equivalente en la herramienta institucional.
+
 ### 7.5 Validación Funcional
 
 El usuario responsable validará, cuando corresponda:
@@ -181,6 +185,10 @@ Una vez obtenida la validación o conformidad que corresponda:
 - Se registrará la fecha de implementación.
 
 La autorización del pase a producción podrá registrarse en el mismo ticket, historia de usuario, correo, comentario o documento equivalente. Cuando un despliegue agrupe varios cambios o historias, podrá utilizarse un registro o ticket de despliegue que indique los cambios incluidos, responsable, fecha o ventana de implementación y evidencias de validación.
+
+El FOR-DES-TI - Formato Referencial de Despliegue de Software podrá utilizarse para preparar o consolidar la información del pase antes de ejecutarlo, especialmente cuando el despliegue agrupe varios cambios, tenga ventana coordinada, incluya scripts, respaldo previo, plan de reversión, comunicación a usuarios o coordinación especial. No será obligatorio crear un formato separado si el ticket, historia, correo, comentario o registro equivalente contiene la información suficiente.
+
+Los datos generados después de ejecutar el pase, como día y hora efectiva, comprobaciones realizadas, comunicaciones enviadas y resultado obtenido, podrán registrarse luego en el ticket, comentario, bitácora, registro de despliegue o cierre técnico.
 
 Cuando corresponda, se realizará respaldo previo.
 
@@ -280,3 +288,4 @@ Se consideran evidencias válidas:
 - Versiones almacenadas en repositorio.
 - Manuales de usuario, guías breves, instructivos o capturas comentadas.
 - Documentos técnicos, arquitectura simplificada o notas técnicas.
+- Formatos referenciales FOR-REQ-TI, FOR-PRU-TI y FOR-DES-TI, o campos equivalentes en la herramienta institucional.
