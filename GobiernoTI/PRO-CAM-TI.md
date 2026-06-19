@@ -213,7 +213,7 @@ La autorización podrá registrarse en el mismo ticket del cambio, historia de u
 
 El uso de un ticket o registro específico de despliegue será opcional y se recomienda cuando el pase agrupe múltiples cambios, requiera una ventana coordinada, comunicación a usuarios, respaldo previo o plan de reversión.
 
-Cuando resulte útil para preparar o consolidar la información del pase antes de ejecutarlo, podrá utilizarse el FOR-DES-TI - Formato Referencial de Despliegue de Software, o un registro equivalente. Su uso no crea la obligación de abrir un ticket separado de despliegue si el ticket del cambio, historia, correo, comentario o registro existente contiene la información suficiente.
+Cuando resulte útil para preparar o consolidar la información del pase antes de ejecutarlo, podrá utilizarse el FOR-DES-TI - Formato de Despliegue de Software, o un registro equivalente. Su uso no crea la obligación de abrir un ticket separado de despliegue si el ticket del cambio, historia, correo, comentario o registro existente contiene la información suficiente.
 
 Cuando corresponda deberá realizarse:
 
@@ -321,52 +321,6 @@ Cierre
 
 ## Formato de Cambio
 
-### Información General
+Podrá utilizarse el FOR-CAM-TI - Formato de Cambio, o campos equivalentes en ticket, Jira, correo, comentario estructurado o documento interno.
 
-- Código o Ticket.
-- Fecha de registro.
-- Solicitante.
-- Responsable Técnico.
-
-### Descripción del Cambio
-
-Indicar brevemente qué se requiere modificar.
-
-### Justificación
-
-Indicar la necesidad, incidente o motivo que origina el cambio.
-
-### Riesgo
-
-- Bajo
-- Medio
-- Alto
-
-Indicar el riesgo estimado al registrar o evaluar el cambio.
-
-### Tipo de Cambio
-
-- Menor
-- Mayor
-- Emergencia
-
-Indicar la clasificación del cambio.
-
-### Plan de Reversión
-
-Indicar cómo se podría volver al estado anterior si el cambio falla. Para cambios menores puede colocarse "No aplica", "Retirar ajuste" o "Restaurar versión anterior", según corresponda.
-
-## Evidencias Posteriores al Registro del Cambio
-
-Luego de registrado el cambio, no será necesario reenviar el Formato de Cambio completo para completar la atención.
-
-La fecha real de implementación, el resultado de validación o pruebas y la conformidad podrán conservarse mediante:
-
-- Comentarios en el ticket.
-- Correo electrónico.
-- Capturas de pantalla.
-- Registro de despliegue.
-- Acta o documento interno cuando corresponda.
-- Cierre técnico o funcional del ticket.
-
-Estas evidencias forman parte del cierre del cambio y podrán registrarse por separado del Formato de Cambio.
+El formato es referencial y sirve como registro inicial o evaluación del cambio. No reemplaza la aprobación del cambio, la autorización del pase a producción, la evidencia de validación, la evidencia de despliegue ni el cierre del cambio.

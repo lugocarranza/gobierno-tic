@@ -30,7 +30,7 @@ Al cierre del ticket Kanban, incidente Jira o herramienta equivalente, deberian 
 | Evidencia del error | Captura, mensaje de error, log o descripcion reproducible | PRO-CAM-TI / PRO-DES-TI |
 | Autorizacion rapida | Comentario, correo, mensaje institucional o registro de decision | PRO-CAM-TI |
 | Acciones ejecutadas | Comentario tecnico, commit, bitacora o enlace a repositorio | PRO-CAM-TI / PRO-DES-TI |
-| Anexo B - Formato de Cambio | Regularizado despues de estabilizar la operacion | PRO-CAM-TI |
+| FOR-CAM-TI - Formato de Cambio | Regularizado despues de estabilizar la operacion | PRO-CAM-TI / FOR-CAM-TI |
 | Validacion de recuperacion | Captura, confirmacion del usuario o prueba funcional simple | PRO-CAM-TI / PRO-DES-TI |
 | FOR-PRU-TI o evidencia equivalente | Regularizado despues si conviene consolidar la validacion | PRO-DES-TI |
 | Fecha real de implementacion | Comentario tecnico, bitacora o registro de atencion urgente | PRO-CAM-TI |
@@ -55,7 +55,7 @@ Al cierre del ticket Kanban, incidente Jira o herramienta equivalente, deberian 
 | Diagnostico | Causa probable o analisis breve | Responsable tecnico | Ticket o comentario tecnico |
 | Atencion | Acciones ejecutadas para corregir | Responsable tecnico | Ticket, repositorio o bitacora |
 | Validacion inmediata | Evidencia de que la solicitud ya graba correctamente | Responsable tecnico / Usuario afectado | Captura, correo o comentario en ticket |
-| Regularizacion | Anexo B - Formato de Cambio, regularizado posteriormente | Coordinacion TIC / Responsable tecnico | Ticket o documento interno |
+| Regularizacion | FOR-CAM-TI - Formato de Cambio, regularizado posteriormente | Coordinacion TIC / Responsable tecnico | Ticket o documento interno |
 | Regularizacion | FOR-PRU-TI o FOR-DES-TI, si corresponde por riesgo, impacto o necesidad de resumir la validacion o preparacion del pase | Coordinacion TIC / Responsable tecnico | Ticket, registro de despliegue o documento interno |
 | Cierre | Resumen de cierre y conformidad cuando corresponda | Coordinacion TIC / Area usuaria | Ticket cerrado |
 
@@ -89,9 +89,9 @@ Evidencias posibles:
 - Confirmacion del usuario afectado.
 - Registro del cambio aplicado.
 
-## Llenado Referencial del Anexo B
+## Llenado Referencial del FOR-CAM-TI
 
-El Anexo B puede completarse despues de restablecer la operacion.
+El FOR-CAM-TI puede completarse despues de restablecer la operacion.
 
 | Campo | Ejemplo |
 |-------|---------|
@@ -103,7 +103,6 @@ El Anexo B puede completarse despues de restablecer la operacion.
 | Justificacion | Restablecer la continuidad del flujo operativo |
 | Riesgo | Medio o Alto, segun afectacion |
 | Tipo de Cambio | Emergencia |
-| Plan de Reversion | Restaurar version anterior o revertir ajuste aplicado si falla |
 
 La fecha real de implementacion, validacion y conformidad se registran durante la regularizacion posterior mediante comentarios, correo, evidencia tecnica, cierre del ticket o medio equivalente.
 
@@ -115,7 +114,8 @@ Si la emergencia requirio un despliegue coordinado, scripts, reversa o validacio
 |-----------|----------|
 | DIR-GST-TI | Gestion de incidentes, priorizacion, trazabilidad y restablecimiento del servicio |
 | DIR-SEG-TI | Gestion de incidentes de seguridad cuando el error involucre confidencialidad, integridad o disponibilidad |
-| PRO-CAM-TI | Cambio de emergencia, autorizacion rapida, Anexo B regularizado, validacion y regularizacion posterior |
+| PRO-CAM-TI | Cambio de emergencia, autorizacion rapida, validacion y regularizacion posterior |
+| FOR-CAM-TI | Formato de Cambio regularizado posteriormente o campos equivalentes |
 | PRO-DES-TI | Mantenimiento correctivo, Anexo B - Evidencias Aceptadas y mecanismos abreviados ante urgencia |
 | PRO-INC-MAY-TI | Aplicable si el impacto permite declararlo incidente mayor; Anexos A y B como referencia de flujo y criticidad |
 | EST-DES-TI | Validacion proporcional y trazabilidad del codigo fuente |
@@ -136,7 +136,7 @@ El caso se considera cerrado cuando:
 - Reporte del incidente.
 - Evidencia del error.
 - Autorizacion rapida o registro de decision.
-- Anexo B - Formato de Cambio, regularizado posteriormente.
+- FOR-CAM-TI - Formato de Cambio, regularizado posteriormente, o campos equivalentes en el ticket.
 - Acciones ejecutadas.
 - Evidencia de validacion.
 - FOR-PRU-TI o FOR-DES-TI regularizado, cuando corresponda por riesgo, impacto o necesidad de resumir la validacion o preparacion del pase.

@@ -23,7 +23,7 @@ Al cierre del ticket de Mesa de Servicios, Kanban Jira o herramienta equivalente
 
 | Documento o evidencia final | Puede estar como | Sustento |
 |-----------------------------|------------------|----------|
-| Solicitud de acceso | Anexo A de PRO-ACC-TI, formulario, ticket o correo con campos equivalentes | PRO-ACC-TI |
+| Solicitud de acceso | FOR-ACC-TI, formulario, ticket o correo con campos equivalentes | PRO-ACC-TI / FOR-ACC-TI |
 | Validacion de vinculo laboral o contractual | Comentario, correo o validacion adjunta | PRO-ACC-TI |
 | Aprobacion del area responsable | Comentario, correo, aprobacion en ticket o formato | PRO-ACC-TI / DIR-SEG-TI |
 | Registro de accesos implementados | Comentario tecnico, captura o registro del sistema | PRO-ACC-TI |
@@ -71,7 +71,8 @@ Cierre del ticket
 |-----------|----------|
 | DIR-SEG-TI | Control de accesos, minimo privilegio, necesidad de acceso y revocacion |
 | DIR-GST-TI | Mesa de Servicios como punto de contacto y trazabilidad de atenciones |
-| PRO-ACC-TI | Alta de accesos, Anexo A - Formato de Solicitud de Acceso, validacion, aprobacion, implementacion, registro y evidencias |
+| PRO-ACC-TI | Alta de accesos, validacion, aprobacion, implementacion, registro y evidencias |
+| FOR-ACC-TI | Formato de Solicitud de Acceso o campos equivalentes en el ticket |
 | CAT-SER-TI | Servicios de gestion de accesos, correo institucional y sistemas institucionales |
 
 ## Cierre Esperado
@@ -86,7 +87,7 @@ El caso se considera cerrado cuando:
 ## Evidencia Minima Para Auditoria
 
 - Solicitud o ticket.
-- Anexo A - Formato de Solicitud de Acceso, o campos equivalentes en el ticket.
+- FOR-ACC-TI - Formato de Solicitud de Acceso, o campos equivalentes en el ticket.
 - Validacion de vinculo laboral o contractual.
 - Aprobacion del area responsable.
 - Evidencia de implementacion.

@@ -9,6 +9,7 @@ $RepoRoot = Split-Path -Parent $ScriptDir
 $SourceDir = Join-Path $RepoRoot "GobiernoTI"
 $OutputDir = Join-Path $RepoRoot "target\word"
 $Converter = Join-Path $ScriptDir "md_to_docx.py"
+$Template = Join-Path $ScriptDir "plantilla.docx"
 
 if (-not (Test-Path $SourceDir)) {
     throw "No se encontro la carpeta fuente: $SourceDir"
@@ -38,6 +39,10 @@ $ArgsList = @(
     "--output", $OutputDir
 )
 
+if (Test-Path $Template) {
+    $ArgsList += @("--template", $Template)
+}
+
 if ($IncludeAgents) {
     $ArgsList += "--include-agents"
 }
@@ -45,6 +50,11 @@ if ($IncludeAgents) {
 Write-Host "Fuente : $SourceDir"
 Write-Host "Salida : $OutputDir"
 Write-Host "Python : $Python"
+if (Test-Path $Template) {
+    Write-Host "Plantilla: $Template"
+} else {
+    Write-Host "Plantilla: no encontrada; se utilizara el formato base"
+}
 Write-Host ""
 
 & $Python @ArgsList

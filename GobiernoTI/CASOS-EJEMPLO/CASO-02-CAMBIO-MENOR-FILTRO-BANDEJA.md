@@ -27,7 +27,7 @@ Al cierre del ticket Kanban, historia de usuario en sprint de Jira o herramienta
 | Documento o evidencia final | Puede estar como | Sustento |
 |-----------------------------|------------------|----------|
 | Ticket, requerimiento o historia de usuario | Registro principal en Jira o Mesa de Servicios | PRO-DES-TI / DIR-GST-TI |
-| Anexo B - Formato de Cambio | Campos del ticket, comentario estructurado o adjunto | PRO-CAM-TI |
+| FOR-CAM-TI - Formato de Cambio | Campos del ticket, comentario estructurado o adjunto | PRO-CAM-TI / FOR-CAM-TI |
 | Registro de implementacion | Commit, comentario tecnico, bitacora o enlace a repositorio | PRO-DES-TI / EST-DES-TI |
 | Validacion simple | Captura, comentario de conformidad o revision funcional | PRO-CAM-TI / PRO-DES-TI |
 | Guia breve, captura comentada o actualizacion de instructivo | Solo si el filtro cambia la forma de uso habitual o requiere comunicacion al usuario | PRO-DES-TI / EST-DES-TI |
@@ -35,7 +35,7 @@ Al cierre del ticket Kanban, historia de usuario en sprint de Jira o herramienta
 | Fecha real de implementacion | Comentario en ticket, registro de despliegue o cierre tecnico | PRO-CAM-TI |
 | Cierre | Estado cerrado con resumen del resultado | DIR-GST-TI |
 
-En un cambio menor, los formatos FOR-REQ-TI, FOR-PRU-TI y FOR-DES-TI no son obligatorios si el ticket, historia, correo o comentario contiene los datos minimos del requerimiento, validacion y pase a produccion. Pueden usarse como apoyo solo cuando aporten claridad o trazabilidad adicional.
+En un cambio menor, los formatos FOR-CAM-TI, FOR-REQ-TI, FOR-PRU-TI y FOR-DES-TI no son obligatorios si el ticket, historia, correo o comentario contiene los datos minimos del cambio, requerimiento, validacion y pase a produccion. Pueden usarse como apoyo solo cuando aporten claridad o trazabilidad adicional.
 
 ## Documentos o Evidencias Recibidas
 
@@ -50,8 +50,8 @@ En un cambio menor, los formatos FOR-REQ-TI, FOR-PRU-TI y FOR-DES-TI no son obli
 | Momento | Evidencia generada | Responsable sugerido | Conservacion sugerida |
 |---------|--------------------|----------------------|-----------------------|
 | Registro | Ticket o registro del requerimiento | Mesa de Servicios / Coordinacion TIC | Herramienta de seguimiento |
-| Analisis | Anexo B - Formato de Cambio, llenado con datos minimos | Responsable tecnico | Ticket o documento adjunto |
-| Analisis | Confirmacion de que es cambio menor | Responsable tecnico | Anexo B o comentario en ticket |
+| Analisis | FOR-CAM-TI o campos equivalentes del cambio, llenado con datos minimos | Responsable tecnico | Ticket o documento adjunto |
+| Analisis | Confirmacion de que es cambio menor | Responsable tecnico | FOR-CAM-TI o comentario en ticket |
 | Implementacion | Registro del cambio realizado en repositorio o bitacora | Desarrollador | Repositorio o ticket |
 | Validacion | Captura del filtro implementado o resultado de revision | Desarrollador / Usuario solicitante | Ticket |
 | Documentacion | Guia breve, captura comentada o instructivo actualizado, si corresponde | Desarrollador / Usuario solicitante | Ticket, correo o repositorio documental |
@@ -67,7 +67,7 @@ Registro del requerimiento
 |
 Clasificacion como cambio menor
 |
-Registro minimo del Anexo B
+Registro minimo del FOR-CAM-TI o campos equivalentes
 |
 Implementacion
 |
@@ -78,7 +78,7 @@ Autorizacion de pase en el mismo ticket
 Cierre
 ```
 
-## Llenado Referencial del Anexo B
+## Llenado Referencial del FOR-CAM-TI
 
 | Campo | Ejemplo |
 |-------|---------|
@@ -90,11 +90,10 @@ Cierre
 | Justificacion | Facilitar la busqueda y seguimiento de solicitudes |
 | Riesgo | Bajo |
 | Tipo de Cambio | Menor |
-| Plan de Reversion | Retirar el filtro o restaurar version anterior del componente |
 
-El Anexo B puede registrarse dentro del mismo ticket si la herramienta permite capturar estos campos.
+El FOR-CAM-TI puede registrarse dentro del mismo ticket si la herramienta permite capturar estos campos.
 
-La fecha real de implementacion, validacion y conformidad no requieren reenviar el Anexo B completo. Pueden quedar como comentarios, capturas, correo o cierre del ticket.
+La fecha real de implementacion, validacion y conformidad no requieren reenviar el FOR-CAM-TI completo. Pueden quedar como comentarios, capturas, correo o cierre del ticket.
 
 ## Validacion Esperada
 
@@ -116,10 +115,11 @@ La autorizacion del pase a produccion puede registrarse en el mismo ticket o his
 | Documento | Sustento |
 |-----------|----------|
 | DIR-GST-TI | Gestion de solicitudes, trazabilidad y atencion mediante Mesa de Servicios |
-| PRO-CAM-TI | Cambio menor, Anexo B - Formato de Cambio, no requiere aprobacion formal previa, validacion proporcional |
+| PRO-CAM-TI | Cambio menor, no requiere aprobacion formal previa, validacion proporcional |
+| FOR-CAM-TI | Formato de Cambio o campos equivalentes en el ticket |
 | PRO-DES-TI | Registro de requerimiento, validacion tecnica o funcional, Anexo B - Evidencias Aceptadas y cierre |
 | EST-DES-TI | Validaciones o pruebas proporcionales a complejidad, riesgo e impacto |
-| FOR-REQ-TI / FOR-PRU-TI / FOR-DES-TI | Formatos referenciales opcionales; pueden reemplazarse por campos equivalentes en el ticket |
+| FOR-REQ-TI / FOR-PRU-TI / FOR-DES-TI | Formatos opcionales; pueden reemplazarse por campos equivalentes en el ticket |
 
 ## Cierre Esperado
 
@@ -133,7 +133,7 @@ El caso se considera cerrado cuando:
 ## Evidencia Minima Para Auditoria
 
 - Ticket o requerimiento.
-- Anexo B - Formato de Cambio, con datos minimos.
+- FOR-CAM-TI - Formato de Cambio, con datos minimos, o campos equivalentes en el ticket.
 - Descripcion del filtro solicitado.
 - Registro del cambio realizado.
 - Captura, conformidad o validacion simple.

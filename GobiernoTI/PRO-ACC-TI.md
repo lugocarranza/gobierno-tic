@@ -317,34 +317,6 @@ El presente procedimiento entra en vigor a partir de su aprobación.
 
 ## Formato de Solicitud de Acceso
 
-### Información General
+Podrá utilizarse el FOR-ACC-TI - Formato de Solicitud de Acceso, o campos equivalentes en Mesa de Servicios, Jira, correo, comentario estructurado o registro similar.
 
-- Tipo de solicitud:
-  - Alta
-  - Modificación
-  - Baja
-- Fecha de solicitud
-- Solicitante
-- Jefatura responsable
-
-### Datos del Usuario
-
-- Nombre completo
-- Cargo
-- Área
-
-### Accesos Requeridos
-
-- Correo institucional
-- Sistemas institucionales
-- Carpetas compartidas
-- VPN
-- Otros
-
-### Justificación
-
-### Aprobaciones
-
-- Solicitante
-- Jefatura
-- Gestión de Personas
+El formato es referencial y sirve para solicitudes de alta, modificación o baja de accesos. No reemplaza el ticket o registro principal, la validación de vínculo laboral o contractual, la implementación técnica ni el cierre de la atención.

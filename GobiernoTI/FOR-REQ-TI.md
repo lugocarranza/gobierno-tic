@@ -1,4 +1,4 @@
-# FORMATO REFERENCIAL DE ESPECIFICACIÓN DE REQUERIMIENTOS
+# FORMATO DE ESPECIFICACIÓN DE REQUERIMIENTOS
 
 | Campo | Valor |
 |---------|---------|
@@ -63,7 +63,7 @@ El contenido mínimo podrá registrarse en este documento, en un adjunto, en Jir
 
 Cuando el requerimiento se formalice mediante este formato, deberá conservar la conformidad del área usuaria. En registros equivalentes, la conformidad podrá constar mediante aprobación en Jira, correo, comentario autorizado o medio similar, salvo que se requiera firma expresa para el caso.
 
-Este formato no reemplaza el ticket o registro principal, el Formato de Cambio cuando corresponda, la aprobación del cambio ni la autorización del pase a producción.
+Este formato no reemplaza el ticket o registro principal, el FOR-CAM-TI cuando corresponda, la aprobación del cambio ni la autorización del pase a producción.
 
 ## Ejemplo Orientador
 
