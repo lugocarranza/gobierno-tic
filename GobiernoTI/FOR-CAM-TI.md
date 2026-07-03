@@ -1,11 +1,4 @@
-# FORMATO DE CAMBIO
-
-| Campo | Valor |
-|---------|---------|
-| Código | FOR-CAM-TI |
-| Versión | 1.0 |
-| Aprobado mediante | RDE XX-2026 |
-| Área Responsable | Tecnologías de la Información |
+# FOR-CAM-TI - FORMATO DE CAMBIO
 
 ## 1. Información General
 

@@ -12,7 +12,7 @@ Esta guía es material de apoyo para capacitación. No reemplaza a las directiva
 
 | Público | Interés principal |
 |---------|-------------------|
-| Coordinación TIC | Supervisar la gestión de TI, autorizar pases a producción, gestionar excepciones y asegurar trazabilidad. |
+| Coordinación TIC o responsable designado de TIC | Supervisar la gestión operativa de TI, autorizar pases a producción cuando corresponda, gestionar excepciones asignadas y asegurar trazabilidad. |
 | Desarrolladores | Registrar requerimientos, cambios, validaciones, código fuente, evidencias técnicas y despliegues. |
 | Mesa de Servicios o soporte | Registrar solicitudes, incidentes, prioridades, responsables, evidencias y cierre. |
 | Responsable de Base de Datos | Gestionar scripts, cambios de datos, validaciones, respaldos y mecanismos de reversa cuando corresponda. |
@@ -48,9 +48,9 @@ Antes de revisar procedimientos específicos, conviene entender qué rol cumple 
 | Documento | Objetivo principal | Por qué es importante | Usuarios más interesados |
 |-----------|--------------------|-----------------------|--------------------------|
 | DIR-GOB-TI | Alinear las Tecnologías de Información con los objetivos institucionales, la generación de valor público, la gestión de riesgos y el cumplimiento normativo. | Importa porque orienta decisiones y prioridades de TI. Ejemplo: si hay varias iniciativas pendientes, ayuda a priorizar la que reduce mayor riesgo operativo o aporta más valor institucional, dejando evidencia de la decisión. | Dirección, Coordinación TIC, responsables de áreas, auditoría. |
-| DIR-GST-TI | Ordenar la gestión de servicios tecnológicos, solicitudes, incidentes, cambios, activos y mejora continua. | Importa porque define cómo atender servicios TI con trazabilidad. Ejemplo: un usuario reporta que no puede ingresar a un sistema; se registra como incidente, se asigna responsable, se documenta la atención y se cierra con evidencia. | Mesa de Servicios, Coordinación TIC, usuarios solicitantes, proveedores. |
+| DIR-GST-TI | Ordenar la gestión de servicios tecnológicos, solicitudes, incidentes, cambios, activos y mejora continua. | Importa porque define cómo atender servicios TI con trazabilidad. Ejemplo: un usuario reporta que no puede ingresar a un sistema; se registra como incidente, se asigna responsable, se documenta la atención y se cierra con evidencia. | Mesa de Servicios, Coordinación TIC o responsable designado de TIC, usuarios solicitantes, proveedores. |
 | DIR-SEG-TI | Proteger la información y los activos tecnológicos, preservando confidencialidad, integridad, disponibilidad y trazabilidad. | Importa porque establece controles mínimos de protección. Ejemplo: antes de otorgar acceso a un sistema, se verifica necesidad, aprobación, perfil adecuado y principio de mínimo privilegio. | Todo usuario con acceso a información o sistemas, Coordinación TIC, responsables funcionales, auditoría. |
-| CAT-SER-TI | Identificar los servicios tecnológicos disponibles y los tipos de atención: consulta, solicitud, incidente o requerimiento. | Importa porque ayuda a clasificar correctamente la atención. Ejemplo: alta de usuario es solicitud; caída del sistema es incidente; una nueva funcionalidad es requerimiento. | Mesa de Servicios, usuarios, Coordinación TIC, responsables funcionales. |
+| CAT-SER-TI | Identificar los servicios tecnológicos disponibles y los tipos de atención: consulta, solicitud, incidente o requerimiento. | Importa porque ayuda a clasificar correctamente la atención. Ejemplo: alta de usuario es solicitud; caída del sistema es incidente; una nueva funcionalidad es requerimiento. | Mesa de Servicios, usuarios, Coordinación TIC o responsable designado de TIC, responsables funcionales. |
 
 ### 4.1 Cómo se Relacionan
 
@@ -182,16 +182,16 @@ El cambio incluye:
 |------|--------|--------------------|----------------------|----------------------|
 | 1 | Registrar solicitud o historia inicial. | Ticket, historia Jira, correo o acta. | Área usuaria / Mesa de Servicios | DIR-GST-TI / PRO-DES-TI |
 | 2 | Formalizar alcance funcional. | FOR-REQ-TI o campos equivalentes. | Usuario responsable / Responsable TIC | PRO-DES-TI / EST-DES-TI |
-| 3 | Evaluar impacto técnico y clasificar cambio. | Comentario técnico, evaluación o FOR-CAM-TI. | Responsable técnico / Coordinación TIC | PRO-CAM-TI |
-| 4 | Aprobar cambio mayor. | Aprobación en ticket, correo, acta o documento interno. | Coordinación TIC y área usuaria | PRO-CAM-TI |
+| 3 | Evaluar impacto técnico y clasificar cambio. | Comentario técnico, evaluación o FOR-CAM-TI. | Responsable técnico / Coordinación TIC o responsable designado de TIC | PRO-CAM-TI |
+| 4 | Aprobar cambio mayor. | Aprobación en ticket, correo, acta o documento interno. | Coordinación TIC o responsable designado de TIC y área usuaria | PRO-CAM-TI |
 | 5 | Desarrollar componentes. | Commits, merge request, versión o enlace a repositorio. | Desarrollador | EST-DES-TI |
 | 6 | Preparar scripts de base de datos. | Scripts versionados, validación y respaldo o reversa cuando corresponda. | Responsable BD / Desarrollador | EST-BD-TI / PRO-RES-TI |
 | 7 | Actualizar documentación funcional. | Manual de usuario, guía breve, instructivo o material de capacitación. | Responsable funcional / TIC | EST-DES-TI / PRO-DES-TI |
 | 8 | Ejecutar validación técnica y funcional. | FOR-PRU-TI, capturas, reportes, logs o comentarios. | Desarrollador / Usuario responsable | PRO-DES-TI |
-| 9 | Autorizar pase a producción. | Comentario, correo, acta o aprobación en ticket. | Coordinación TIC | PRO-CAM-TI / PRO-DES-TI |
-| 10 | Preparar despliegue. | FOR-DES-TI o registro equivalente si aporta trazabilidad. | Responsable técnico / Coordinación TIC | PRO-CAM-TI |
+| 9 | Autorizar pase a producción. | Comentario, correo, acta o aprobación en ticket. | Coordinación TIC o responsable designado de TIC | PRO-CAM-TI / PRO-DES-TI |
+| 10 | Preparar despliegue. | FOR-DES-TI o registro equivalente si aporta trazabilidad. | Responsable técnico / Coordinación TIC o responsable designado de TIC | PRO-CAM-TI |
 | 11 | Ejecutar pase y registrar resultado. | Fecha real, responsable, resultado, validación posterior y cierre en ticket. | Responsable técnico | PRO-DES-TI / PRO-CAM-TI |
-| 12 | Cerrar atención. | Conformidad funcional o técnica y ticket cerrado. | Área usuaria / Coordinación TIC | DIR-GST-TI |
+| 12 | Cerrar atención. | Conformidad funcional o técnica y ticket cerrado. | Área usuaria / Coordinación TIC o responsable designado de TIC | DIR-GST-TI |
 
 ### Evidencia Mínima Consolidada del Caso
 

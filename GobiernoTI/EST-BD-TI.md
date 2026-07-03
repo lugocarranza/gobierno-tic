@@ -153,7 +153,7 @@ Responsable de:
 - Todo acceso a bases de datos deberá estar debidamente autorizado.
 - Los accesos deberán otorgarse aplicando el principio de mínimo privilegio.
 - Los usuarios serán personales e intransferibles.
-- Los accesos privilegiados requerirán autorización expresa de la Coordinación TIC.
+- Los accesos privilegiados requerirán autorización expresa de la Coordinación TIC o responsable designado de TIC.
 - Los ambientes de producción deberán restringir el acceso de escritura únicamente al personal autorizado.
 - Las credenciales deberán mantenerse protegidas y no podrán compartirse.
 
@@ -164,8 +164,10 @@ Responsable de:
 
 ## 5.3 Excepciones
 
-- Toda excepción al presente estándar deberá encontrarse debidamente sustentada y aprobada por la Coordinación TIC.
+- Toda excepción al presente estándar deberá encontrarse debidamente sustentada y aprobada por la Coordinación TIC o responsable designado de TIC.
 - Las excepciones deberán documentarse y conservarse como evidencia.
+
+Cuando la autorización o aprobación sea emitida por un responsable designado de TIC, la designación o autorización deberá quedar registrada en ticket, correo, comentario, documento interno o registro equivalente.
 
 ## 5.4 Integridad de Datos
 

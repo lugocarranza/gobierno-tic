@@ -49,14 +49,14 @@ En un cambio menor, los formatos FOR-CAM-TI, FOR-REQ-TI, FOR-PRU-TI y FOR-DES-TI
 
 | Momento | Evidencia generada | Responsable sugerido | Conservacion sugerida |
 |---------|--------------------|----------------------|-----------------------|
-| Registro | Ticket o registro del requerimiento | Mesa de Servicios / Coordinacion TIC | Herramienta de seguimiento |
+| Registro | Ticket o registro del requerimiento | Mesa de Servicios / Coordinacion TIC / responsable designado de TIC | Herramienta de seguimiento |
 | Analisis | FOR-CAM-TI o campos equivalentes del cambio, llenado con datos minimos | Responsable tecnico | Ticket o documento adjunto |
 | Analisis | Confirmacion de que es cambio menor | Responsable tecnico | FOR-CAM-TI o comentario en ticket |
 | Implementacion | Registro del cambio realizado en repositorio o bitacora | Desarrollador | Repositorio o ticket |
 | Validacion | Captura del filtro implementado o resultado de revision | Desarrollador / Usuario solicitante | Ticket |
 | Documentacion | Guia breve, captura comentada o instructivo actualizado, si corresponde | Desarrollador / Usuario solicitante | Ticket, correo o repositorio documental |
-| Pase a produccion | Autorizacion de pase en el mismo ticket o comentario | Coordinacion TIC | Ticket o historia de usuario |
-| Cierre | Conformidad simple o cierre del ticket | Usuario solicitante / Coordinacion TIC | Ticket o correo |
+| Pase a produccion | Autorizacion de pase en el mismo ticket o comentario | Coordinacion TIC / responsable designado de TIC | Ticket o historia de usuario |
+| Cierre | Conformidad simple o cierre del ticket | Usuario solicitante / Coordinacion TIC / responsable designado de TIC | Ticket o correo |
 
 ## Flujo Sugerido
 

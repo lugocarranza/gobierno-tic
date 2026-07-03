@@ -191,12 +191,12 @@ Los tiempos indicados son referenciales y podrán variar en función de la compl
 
 | Grupo Resolutor | Responsable |
 |-----------------|-------------|
-| Mesa de Servicios | Coordinación TIC |
+| Mesa de Servicios | Coordinación TIC o responsable designado de TIC |
 | Desarrollo de Software | Equipo de Desarrollo |
 | Base de Datos | Responsable de Base de Datos |
 | GIS | Especialista GIS |
-| Infraestructura y Redes | Coordinación TIC |
-| Seguridad de la Información | Coordinación TIC |
+| Infraestructura y Redes | Coordinación TIC o responsable designado de TIC |
+| Seguridad de la Información | Coordinación TIC o responsable designado de TIC |
 | Proveedores Externos | Proveedor o contratista correspondiente |
 
 ## 9. ACTUALIZACIÓN DEL CATÁLOGO

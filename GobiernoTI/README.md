@@ -38,7 +38,7 @@ El marco documental considera una estructura de TI pequena, donde una misma pers
 
 Como referencia, se consideran los siguientes roles:
 
-- Coordinador TIC.
+- Coordinador TIC o responsable designado de TIC.
 - Desarrolladores de software.
 - Responsable de Base de Datos.
 - Especialista GIS.

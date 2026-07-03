@@ -127,7 +127,7 @@ Un incidente mayor podrá cerrarse cuando:
 
 ## 9. LECCIONES APRENDIDAS
 
-Cuando la magnitud del incidente lo amerite, la Coordinación TIC podrá realizar una revisión posterior para identificar:
+Cuando la magnitud del incidente lo amerite, la Coordinación TIC o responsable designado de TIC podrá realizar una revisión posterior para identificar:
 
 - Causa raíz.
 - Factores contribuyentes.

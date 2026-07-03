@@ -1,11 +1,4 @@
-# FORMATO DE ESPECIFICACIÓN DE REQUERIMIENTOS
-
-| Campo | Valor |
-|---------|---------|
-| Código | FOR-REQ-TI |
-| Versión | 1.0 |
-| Aprobado mediante | RDE XX-2026 |
-| Área Responsable | Tecnologías de la Información |
+# FOR-REQ-TI - FORMATO DE ESPECIFICACIÓN DE REQUERIMIENTOS
 
 ## 1. Datos Generales
 

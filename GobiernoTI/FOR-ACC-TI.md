@@ -1,11 +1,4 @@
-# FORMATO DE SOLICITUD DE ACCESO
-
-| Campo | Valor |
-|---------|---------|
-| Código | FOR-ACC-TI |
-| Versión | 1.0 |
-| Aprobado mediante | RDE XX-2026 |
-| Área Responsable | Tecnologías de la Información |
+# FOR-ACC-TI - FORMATO DE SOLICITUD DE ACCESO
 
 ## 1. Información General
 
@@ -56,7 +49,7 @@ Indicar la necesidad operativa, función o actividad que sustenta el acceso soli
 | Solicitante | | | |
 | Jefatura o coordinación responsable | | | |
 | Gestión de Personas, cuando corresponda | | | |
-| Coordinación TIC, para accesos privilegiados | | | |
+| Coordinación TIC o responsable designado de TIC, para accesos privilegiados | | | |
 
 ## Uso del Formato
 

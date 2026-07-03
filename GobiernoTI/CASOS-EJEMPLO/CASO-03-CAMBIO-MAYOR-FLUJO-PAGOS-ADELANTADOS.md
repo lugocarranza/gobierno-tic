@@ -49,19 +49,19 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 |---------|--------------------|----------------------|----------------|
 | Inicio | Requerimiento formal, ticket, correo, memorando o acta | Area usuaria | Sustenta la necesidad |
 | Analisis | Descripcion del nuevo flujo y reglas funcionales | Usuario responsable del proceso | Define alcance funcional |
-| Analisis | Identificacion de usuarios, roles o areas impactadas | Area usuaria / Coordinacion TIC | Evalua impacto operativo |
+| Analisis | Identificacion de usuarios, roles o areas impactadas | Area usuaria / Coordinacion TIC / responsable designado de TIC | Evalua impacto operativo |
 | Analisis | Informacion sobre datos, reportes o integraciones afectadas | Responsable tecnico / Responsable BD | Evalua impacto tecnico |
 
 ## Documentos o Evidencias Generadas
 
 | Momento | Evidencia generada | Responsable sugerido | Conservacion sugerida |
 |---------|--------------------|----------------------|-----------------------|
-| Registro | Ticket o registro del requerimiento | Mesa de Servicios / Coordinacion TIC | Herramienta de seguimiento |
+| Registro | Ticket o registro del requerimiento | Mesa de Servicios / Coordinacion TIC / responsable designado de TIC | Herramienta de seguimiento |
 | Analisis | FOR-REQ-TI o campos equivalentes del requerimiento | Responsable tecnico / Usuario responsable | Ticket, historia o documento adjunto |
 | Evaluacion | Evaluacion tecnica con alcance, impacto, riesgo y dependencias | Responsable tecnico | Ticket, documento interno o correo |
-| Evaluacion | FOR-CAM-TI - Formato de Cambio | Responsable tecnico / Coordinacion TIC | Ticket o documento adjunto |
-| Evaluacion | Clasificacion como cambio mayor | Responsable tecnico / Coordinacion TIC | FOR-CAM-TI o evaluacion |
-| Aprobacion | Aprobacion formal proporcional al impacto | Coordinacion TIC y area usuaria o responsable funcional | Ticket, correo, acta o documento interno |
+| Evaluacion | FOR-CAM-TI - Formato de Cambio | Responsable tecnico / Coordinacion TIC / responsable designado de TIC | Ticket o documento adjunto |
+| Evaluacion | Clasificacion como cambio mayor | Responsable tecnico / Coordinacion TIC / responsable designado de TIC | FOR-CAM-TI o evaluacion |
+| Aprobacion | Aprobacion formal proporcional al impacto | Coordinacion TIC o responsable designado de TIC y area usuaria o responsable funcional | Ticket, correo, acta o documento interno |
 | Desarrollo | Registro de cambios en repositorio | Desarrollador | Repositorio institucional |
 | Base de datos | Scripts DDL o DML, si corresponden | Responsable BD / Desarrollador | Repositorio, ticket o carpeta tecnica |
 | Preparacion | Plan de reversion o mecanismo de rollback | Responsable tecnico / Responsable BD | Ticket o documento interno |
@@ -69,10 +69,10 @@ Al cierre de la historia de usuario en sprint de Jira, ticket Kanban o herramien
 | Documentacion tecnica | Documento tecnico o arquitectura simplificada | Responsable tecnico | Repositorio, ticket o documento interno |
 | Validacion | FOR-PRU-TI o registro equivalente de escenarios validados | Desarrollador / Usuario responsable | Ticket, documento adjunto o evidencias enlazadas |
 | Validacion | Evidencia de validacion tecnica y funcional | Desarrollador / Usuario responsable | Capturas, registros, correo o acta |
-| Pase a produccion | Autorizacion del pase a produccion | Coordinacion TIC | Ticket principal, historia, correo o registro de despliegue |
-| Preparacion del despliegue | FOR-DES-TI o registro equivalente del pase a produccion | Coordinacion TIC / Responsable tecnico | Ticket, registro de despliegue o documento adjunto |
-| Despliegue | Evidencia de implementacion en produccion | Coordinacion TIC / Responsable tecnico | Ticket o registro de despliegue |
-| Cierre | Conformidad funcional y cierre | Usuario responsable / Coordinacion TIC | Ticket, correo o acta |
+| Pase a produccion | Autorizacion del pase a produccion | Coordinacion TIC / responsable designado de TIC | Ticket principal, historia, correo o registro de despliegue |
+| Preparacion del despliegue | FOR-DES-TI o registro equivalente del pase a produccion | Coordinacion TIC / responsable designado de TIC / Responsable tecnico | Ticket, registro de despliegue o documento adjunto |
+| Despliegue | Evidencia de implementacion en produccion | Coordinacion TIC / responsable designado de TIC / Responsable tecnico | Ticket o registro de despliegue |
+| Cierre | Conformidad funcional y cierre | Usuario responsable / Coordinacion TIC / responsable designado de TIC | Ticket, correo o acta |
 
 ## Flujo Sugerido
 

@@ -122,7 +122,9 @@ Todo acceso deberá estar asociado a funciones institucionales o contractuales.
 
 ### 6.5
 
-Los accesos privilegiados requerirán autorización expresa de la Coordinación TIC.
+Los accesos privilegiados requerirán autorización expresa de la Coordinación TIC o responsable designado de TIC.
+
+Cuando la autorización sea emitida por un responsable designado de TIC, la designación o autorización deberá quedar registrada en Mesa de Servicios, correo, comentario, documento interno o registro equivalente.
 
 ### 6.6
 
@@ -159,11 +161,11 @@ Gestión de Personas valida:
 
 La Coordinación o Jefatura responsable aprueba el acceso solicitado.
 
-Cuando se trate de accesos privilegiados, la aprobación deberá contar además con validación de la Coordinación TIC.
+Cuando se trate de accesos privilegiados, la aprobación deberá contar además con validación de la Coordinación TIC o responsable designado de TIC.
 
 ### 7.4 Implementación
 
-La Coordinación TIC procede a:
+La Coordinación TIC o responsable designado de TIC procede a:
 
 - Crear la cuenta.
 - Asignar perfiles.
@@ -201,7 +203,7 @@ La modificación deberá registrarse mediante la Mesa de Servicios.
 
 ### 8.3 Evaluación
 
-La Coordinación TIC verificará:
+La Coordinación TIC o responsable designado de TIC verificará:
 
 - Principio de mínimo privilegio.
 - Segregación de funciones.
@@ -231,7 +233,7 @@ Gestión de Personas deberá comunicar el evento a la Mesa de Servicios.
 
 ### 9.3 Revocación
 
-La Coordinación TIC procederá a:
+La Coordinación TIC o responsable designado de TIC procederá a:
 
 - Deshabilitar cuentas.
 - Revocar accesos.
@@ -282,7 +284,7 @@ Los accesos privilegiados deberán retirarse inmediatamente cuando desaparezca l
 
 ## 11. REVISIÓN PERIÓDICA DE ACCESOS
 
-La Coordinación TIC realizará una revisión de accesos como mínimo una vez al año.
+La Coordinación TIC o responsable designado de TIC realizará una revisión de accesos como mínimo una vez al año.
 
 La revisión considerará:
 

@@ -52,7 +52,7 @@ Evitar proponer estructuras, procesos o controles excesivamente complejos que re
 
 Como referencia organizacional considerar:
 
-* Coordinador TIC.
+* Coordinador TIC o responsable designado de TIC.
 * Dos desarrolladores de software.
 * Responsable de Base de Datos.
 * Especialista GIS.

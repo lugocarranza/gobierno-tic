@@ -1,11 +1,4 @@
-# FORMATO DE EVIDENCIA DE VALIDACIÓN O PRUEBAS
-
-| Campo | Valor |
-|---------|---------|
-| Código | FOR-PRU-TI |
-| Versión | 1.0 |
-| Aprobado mediante | RDE XX-2026 |
-| Área Responsable | Tecnologías de la Información |
+# FOR-PRU-TI - FORMATO DE EVIDENCIA DE VALIDACIÓN O PRUEBAS
 
 ## 1. Datos Generales
 

@@ -1,11 +1,4 @@
-# FORMATO DE DESPLIEGUE DE SOFTWARE
-
-| Campo | Valor |
-|---------|---------|
-| Código | FOR-DES-TI |
-| Versión | 1.0 |
-| Aprobado mediante | RDE XX-2026 |
-| Área Responsable | Tecnologías de la Información |
+# FOR-DES-TI - FORMATO DE DESPLIEGUE DE SOFTWARE
 
 ## 1. Datos Generales
 

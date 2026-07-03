@@ -43,11 +43,11 @@ Al cierre del ticket de Mesa de Servicios, Kanban Jira o herramienta equivalente
 
 | Momento | Evidencia generada | Responsable sugerido | Conservacion sugerida |
 |---------|--------------------|----------------------|-----------------------|
-| Registro | Ticket de atencion | Mesa de Servicios / Coordinacion TIC | En Mesa de Servicios o herramienta disponible |
-| Implementacion | Registro de cuenta creada y perfiles asignados | Coordinacion TIC | Ticket, captura o registro tecnico |
-| Implementacion | Evidencia de MFA o controles aplicados cuando corresponda | Coordinacion TIC | Ticket o captura |
-| Notificacion | Comunicacion de habilitacion al usuario o area | Coordinacion TIC | Correo o comentario en ticket |
-| Cierre | Ticket cerrado con resumen de accesos habilitados | Mesa de Servicios / Coordinacion TIC | Ticket cerrado |
+| Registro | Ticket de atencion | Mesa de Servicios / Coordinacion TIC / responsable designado de TIC | En Mesa de Servicios o herramienta disponible |
+| Implementacion | Registro de cuenta creada y perfiles asignados | Coordinacion TIC / responsable designado de TIC | Ticket, captura o registro tecnico |
+| Implementacion | Evidencia de MFA o controles aplicados cuando corresponda | Coordinacion TIC / responsable designado de TIC | Ticket o captura |
+| Notificacion | Comunicacion de habilitacion al usuario o area | Coordinacion TIC / responsable designado de TIC | Correo o comentario en ticket |
+| Cierre | Ticket cerrado con resumen de accesos habilitados | Mesa de Servicios / Coordinacion TIC / responsable designado de TIC | Ticket cerrado |
 
 ## Flujo Sugerido
 

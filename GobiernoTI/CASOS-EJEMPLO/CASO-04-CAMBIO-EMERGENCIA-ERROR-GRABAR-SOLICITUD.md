@@ -44,20 +44,20 @@ Al cierre del ticket Kanban, incidente Jira o herramienta equivalente, deberian 
 |---------|--------------------|----------------------|----------------|
 | Deteccion | Reporte del usuario por ticket, correo o llamada registrada | Usuario afectado / Mesa de Servicios | Identifica el incidente |
 | Diagnostico | Captura del error o descripcion del comportamiento | Usuario afectado / Responsable tecnico | Permite reproducir o analizar la falla |
-| Evaluacion | Identificacion del impacto operativo | Coordinacion TIC / Area usuaria | Sustenta la urgencia |
-| Autorizacion | Autorizacion rapida para corregir | Coordinacion TIC o responsable designado | Permite ejecutar el cambio urgente |
+| Evaluacion | Identificacion del impacto operativo | Coordinacion TIC / responsable designado de TIC / Area usuaria | Sustenta la urgencia |
+| Autorizacion | Autorizacion rapida para corregir | Coordinacion TIC o responsable designado de TIC | Permite ejecutar el cambio urgente |
 
 ## Documentos o Evidencias Generadas
 
 | Momento | Evidencia generada | Responsable sugerido | Conservacion sugerida |
 |---------|--------------------|----------------------|-----------------------|
-| Registro | Ticket o registro del incidente | Mesa de Servicios / Coordinacion TIC | Herramienta de seguimiento |
+| Registro | Ticket o registro del incidente | Mesa de Servicios / Coordinacion TIC / responsable designado de TIC | Herramienta de seguimiento |
 | Diagnostico | Causa probable o analisis breve | Responsable tecnico | Ticket o comentario tecnico |
 | Atencion | Acciones ejecutadas para corregir | Responsable tecnico | Ticket, repositorio o bitacora |
 | Validacion inmediata | Evidencia de que la solicitud ya graba correctamente | Responsable tecnico / Usuario afectado | Captura, correo o comentario en ticket |
-| Regularizacion | FOR-CAM-TI - Formato de Cambio, regularizado posteriormente | Coordinacion TIC / Responsable tecnico | Ticket o documento interno |
-| Regularizacion | FOR-PRU-TI o FOR-DES-TI, si corresponde por riesgo, impacto o necesidad de resumir la validacion o preparacion del pase | Coordinacion TIC / Responsable tecnico | Ticket, registro de despliegue o documento interno |
-| Cierre | Resumen de cierre y conformidad cuando corresponda | Coordinacion TIC / Area usuaria | Ticket cerrado |
+| Regularizacion | FOR-CAM-TI - Formato de Cambio, regularizado posteriormente | Coordinacion TIC / responsable designado de TIC / Responsable tecnico | Ticket o documento interno |
+| Regularizacion | FOR-PRU-TI o FOR-DES-TI, si corresponde por riesgo, impacto o necesidad de resumir la validacion o preparacion del pase | Coordinacion TIC / responsable designado de TIC / Responsable tecnico | Ticket, registro de despliegue o documento interno |
+| Cierre | Resumen de cierre y conformidad cuando corresponda | Coordinacion TIC / responsable designado de TIC / Area usuaria | Ticket cerrado |
 
 ## Flujo Sugerido
 

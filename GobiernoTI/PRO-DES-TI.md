@@ -48,7 +48,7 @@ Responsable de:
 - Proporcionar información funcional.
 - Validar el resultado obtenido.
 
-### 5.2 Coordinación TIC
+### 5.2 Coordinación TIC o responsable designado de TIC
 
 Responsable de:
 
@@ -239,7 +239,7 @@ Todo desarrollo deberá conservar, como mínimo:
 
 ## 12. INDICADORES
 
-La Coordinación TIC podrá monitorear:
+La Coordinación TIC o responsable designado de TIC podrá monitorear:
 
 - Requerimientos atendidos.
 - Tiempo promedio de implementación.

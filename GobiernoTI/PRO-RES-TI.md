@@ -79,11 +79,13 @@ Los respaldos deberán almacenarse en medios o ubicaciones diferentes al entorno
 
 ### 6.3
 
-La Coordinación TIC deberá conservar evidencia de la ejecución de los respaldos.
+La Coordinación TIC o responsable designado de TIC deberá conservar evidencia de la ejecución de los respaldos.
 
 ### 6.4
 
-La recuperación de información deberá ser autorizada por la Coordinación TIC o por el responsable funcional correspondiente.
+La recuperación de información deberá ser autorizada por la Coordinación TIC, por el responsable designado de TIC o por el responsable funcional correspondiente.
+
+Cuando la autorización sea emitida por un responsable designado de TIC, la designación o autorización deberá quedar registrada en ticket, correo, comentario, documento interno o registro equivalente.
 
 ### 6.5
 
@@ -149,7 +151,7 @@ La recuperación deberá ser solicitada por:
 
 - Usuario responsable de la información.
 - Responsable funcional.
-- Coordinación TIC.
+- Coordinación TIC o responsable designado de TIC.
 
 ### 9.3 Restauración
 
@@ -165,7 +167,7 @@ Luego de la restauración se verificará:
 
 ## 10. PRUEBAS DE RECUPERACIÓN
 
-La Coordinación TIC realizará al menos una prueba de recuperación anual sobre información o servicios críticos.
+La Coordinación TIC o responsable designado de TIC realizará al menos una prueba de recuperación anual sobre información o servicios críticos.
 
 Cuando no resulte técnica u operativamente viable ejecutar una prueba completa, podrá realizarse una verificación parcial o documentarse la limitación correspondiente.
 
@@ -207,8 +209,8 @@ El presente procedimiento entra en vigencia a partir de su aprobación.
 | Definir respaldos | Coordinación TIC |
 | Ejecutar respaldos BD | Responsable BD |
 | Ejecutar respaldos de sistemas | Administrador correspondiente |
-| Verificar respaldos | Coordinación TIC |
-| Autorizar recuperación | Coordinación TIC / Responsable funcional |
+| Verificar respaldos | Coordinación TIC o responsable designado de TIC |
+| Autorizar recuperación | Coordinación TIC / responsable designado de TIC / Responsable funcional |
 | Ejecutar restauración | Responsable técnico |
 
 # ANEXO B

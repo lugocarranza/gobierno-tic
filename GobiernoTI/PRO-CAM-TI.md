@@ -86,7 +86,7 @@ Responsable de:
 - Implementar el cambio.
 - Documentar evidencias.
 
-### 5.3 Coordinación TIC
+### 5.3 Coordinación TIC o responsable designado de TIC
 
 Responsable de:
 
@@ -119,11 +119,11 @@ Cuando el cambio implique riesgos significativos o sea clasificado como cambio m
 
 ### 6.6
 
-No se realizarán cambios directos en producción sin autorización de la Coordinación TIC, salvo situaciones de emergencia.
+No se realizarán cambios directos en producción sin autorización de la Coordinación TIC o responsable designado de TIC, salvo situaciones de emergencia.
 
 ### 6.7
 
-La gestión de cambios no requiere la constitución de un comité permanente. Los cambios mayores deberán contar con aprobación formal proporcional al impacto, en la que participen la Coordinación TIC, el responsable técnico y el área usuaria o responsable funcional cuando corresponda.
+La gestión de cambios no requiere la constitución de un comité permanente. Los cambios mayores deberán contar con aprobación formal proporcional al impacto, en la que participen la Coordinación TIC o responsable designado de TIC, el responsable técnico y el área usuaria o responsable funcional cuando corresponda.
 
 ## 7. PROCEDIMIENTO DE GESTIÓN DE CAMBIOS
 
@@ -162,8 +162,8 @@ La aprobación se realizará de acuerdo con el tipo de cambio:
 | Tipo de cambio | Aprobación mínima |
 |----------------|-------------------|
 | Cambio menor | No requiere aprobación formal previa. Debe quedar registrado y contar con validación o conformidad cuando corresponda. |
-| Cambio mayor | Coordinación TIC, responsable técnico y área usuaria o responsable funcional. |
-| Cambio de emergencia | Autorización rápida de Coordinación TIC o responsable designado, con regularización posterior. |
+| Cambio mayor | Coordinación TIC o responsable designado de TIC, responsable técnico y área usuaria o responsable funcional. |
+| Cambio de emergencia | Autorización rápida de Coordinación TIC o responsable designado de TIC, con regularización posterior. |
 
 Cuando el cambio mayor tenga impacto institucional significativo, presupuestal, contractual, contable, de seguridad o continuidad operativa, podrá requerirse aprobación de Dirección Ejecutiva u otras áreas competentes.
 
@@ -173,6 +173,8 @@ La aprobación podrá realizarse mediante:
 - Correo electrónico.
 - Acta.
 - Documento interno.
+
+Cuando la aprobación o autorización sea realizada por un responsable designado de TIC, la designación o autorización deberá quedar registrada en ticket, correo, comentario, acta o registro equivalente.
 
 La aprobación del cambio y la autorización del pase a producción son controles distintos. La aprobación del cambio confirma que el cambio puede ejecutarse; la autorización del pase a producción confirma que uno o más cambios validados pueden implementarse en producción.
 
@@ -205,7 +207,7 @@ Las evidencias podrán consistir en:
 
 ### 7.6 Pase a Producción
 
-La implementación en producción deberá ser autorizada por la Coordinación TIC.
+La implementación en producción deberá ser autorizada por la Coordinación TIC o responsable designado de TIC.
 
 La autorización del pase a producción podrá corresponder a un cambio individual o a un conjunto de cambios validados. Cuando el pase agrupe varios cambios, deberá indicarse la relación de tickets, historias o requerimientos incluidos.
 
@@ -285,7 +287,7 @@ Todo cambio deberá conservar, según corresponda:
 
 ## 11. INDICADORES
 
-La Coordinación TIC podrá monitorear:
+La Coordinación TIC o responsable designado de TIC podrá monitorear:
 
 - Cambios implementados.
 - Cambios exitosos.
