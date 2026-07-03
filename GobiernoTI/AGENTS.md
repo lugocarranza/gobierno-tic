@@ -5,7 +5,7 @@
 Antes de analizar, revisar o modificar cualquier documento se deberá leer:
 
 1. README.md
-2. MAPA-DOCUMENTAL.md
+2. [C] MAPA-DOCUMENTAL.md
 3. El documento objetivo
 4. Los documentos relacionados identificados en el mapa documental
 
@@ -107,7 +107,7 @@ Las recomendaciones deben adaptarse a una organización pequeña.
 Antes de modificar cualquier documento revisar:
 
 ```text
-MAPA-DOCUMENTAL.md
+[C] MAPA-DOCUMENTAL.md
 ```
 
 para identificar:
@@ -315,7 +315,7 @@ Se debe privilegiar una estructura documental simple y mantenible.
 Antes de realizar cambios:
 
 1. Revisar el documento completo.
-2. Revisar MAPA-DOCUMENTAL.md.
+2. Revisar [C] MAPA-DOCUMENTAL.md.
 3. Identificar impactos en documentos relacionados.
 4. Verificar consistencia normativa.
 5. Mantener coherencia entre documentos.
